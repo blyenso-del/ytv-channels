@@ -1,11 +1,647 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>ytv</title>
+  <title>YTV — 下载 · Download</title>
+  <meta name="description" content="YTV — 轻量频道播放与订阅。Download YTV for Android.">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --red: #E31C23;
+      --red-dark: #C41218;
+      --red-soft: rgba(227, 28, 35, 0.08);
+      --red-glow: rgba(227, 28, 35, 0.22);
+      --ink: #141416;
+      --ink-2: #3a3a40;
+      --muted: #6b6b74;
+      --line: #ebebef;
+      --bg: #f7f6f4;
+      --card: #ffffff;
+      --radius: 20px;
+      --shadow: 0 18px 50px rgba(20, 20, 22, 0.08);
+      --shadow-sm: 0 8px 24px rgba(20, 20, 22, 0.06);
+      --font: "Outfit", "Noto Sans SC", "PingFang SC", "Microsoft YaHei", sans-serif;
+    }
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      font-family: var(--font);
+      color: var(--ink);
+      background: var(--bg);
+      min-height: 100vh;
+      line-height: 1.55;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    /* soft paper grain + brand wash */
+    body::before {
+      content: "";
+      position: fixed;
+      inset: 0;
+      pointer-events: none;
+      z-index: 0;
+      background:
+        radial-gradient(900px 520px at 12% -10%, rgba(227, 28, 35, 0.12), transparent 60%),
+        radial-gradient(700px 480px at 100% 0%, rgba(227, 28, 35, 0.06), transparent 55%),
+        radial-gradient(600px 400px at 50% 100%, rgba(227, 28, 35, 0.04), transparent 50%);
+    }
+
+    body::after {
+      content: "";
+      position: fixed;
+      inset: 0;
+      pointer-events: none;
+      z-index: 0;
+      opacity: 0.35;
+      background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.05'/%3E%3C/svg%3E");
+    }
+
+    .wrap {
+      position: relative;
+      z-index: 1;
+      width: min(1080px, calc(100% - 2rem));
+      margin: 0 auto;
+    }
+
+    /* —— header —— */
+    header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 1.25rem 0 0.5rem;
+    }
+
+    .brand {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.7rem;
+      text-decoration: none;
+      color: inherit;
+    }
+
+    .brand img {
+      width: 40px;
+      height: 40px;
+      border-radius: 10px;
+      box-shadow: 0 6px 16px var(--red-glow);
+    }
+
+    .brand span {
+      font-weight: 800;
+      font-size: 1.2rem;
+      letter-spacing: -0.03em;
+    }
+
+    .nav-link {
+      color: var(--muted);
+      text-decoration: none;
+      font-size: 0.92rem;
+      font-weight: 500;
+      transition: color 0.2s;
+    }
+    .nav-link:hover { color: var(--red); }
+
+    /* —— hero —— */
+    .hero {
+      display: grid;
+      grid-template-columns: 1.05fr 0.95fr;
+      gap: 2.5rem;
+      align-items: center;
+      padding: 2.5rem 0 3rem;
+    }
+
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+      padding: 0.35rem 0.75rem;
+      border-radius: 999px;
+      background: var(--red-soft);
+      color: var(--red);
+      font-size: 0.78rem;
+      font-weight: 600;
+      letter-spacing: 0.02em;
+      margin-bottom: 1.1rem;
+    }
+
+    .badge::before {
+      content: "";
+      width: 7px;
+      height: 7px;
+      border-radius: 50%;
+      background: var(--red);
+      box-shadow: 0 0 0 3px rgba(227, 28, 35, 0.18);
+    }
+
+    h1 {
+      font-size: clamp(2.2rem, 4.5vw, 3.35rem);
+      line-height: 1.08;
+      letter-spacing: -0.04em;
+      font-weight: 800;
+      margin-bottom: 0.85rem;
+    }
+
+    h1 em {
+      font-style: normal;
+      color: var(--red);
+    }
+
+    .lead {
+      color: var(--ink-2);
+      font-size: 1.05rem;
+      max-width: 34rem;
+      margin-bottom: 0.35rem;
+    }
+
+    .lead-en {
+      color: var(--muted);
+      font-size: 0.95rem;
+      max-width: 34rem;
+      margin-bottom: 1.6rem;
+    }
+
+    .cta-row {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 0.85rem;
+    }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.55rem;
+      border: none;
+      border-radius: 14px;
+      font-family: inherit;
+      font-weight: 700;
+      font-size: 1rem;
+      text-decoration: none;
+      cursor: pointer;
+      transition: transform 0.18s ease, box-shadow 0.18s ease, background 0.18s ease;
+    }
+
+    .btn:active { transform: translateY(1px) scale(0.99); }
+
+    .btn-primary {
+      padding: 0.95rem 1.45rem;
+      background: var(--red);
+      color: #fff;
+      box-shadow: 0 12px 28px var(--red-glow);
+    }
+    .btn-primary:hover {
+      background: var(--red-dark);
+      transform: translateY(-1px);
+      box-shadow: 0 16px 34px var(--red-glow);
+    }
+
+    .btn-primary.is-disabled,
+    .btn-primary[aria-disabled="true"] {
+      opacity: 0.55;
+      cursor: not-allowed;
+      box-shadow: none;
+      pointer-events: none;
+    }
+
+    .btn-ghost {
+      padding: 0.9rem 1.2rem;
+      background: var(--card);
+      color: var(--ink);
+      border: 1px solid var(--line);
+      box-shadow: var(--shadow-sm);
+    }
+    .btn-ghost:hover {
+      border-color: #dddde3;
+      transform: translateY(-1px);
+    }
+
+    .btn svg { width: 20px; height: 20px; flex-shrink: 0; }
+
+    .meta {
+      margin-top: 1rem;
+      font-size: 0.82rem;
+      color: var(--muted);
+    }
+
+    /* logo stage */
+    .stage {
+      position: relative;
+      display: grid;
+      place-items: center;
+      min-height: 360px;
+    }
+
+    .stage-card {
+      position: relative;
+      width: min(100%, 340px);
+      aspect-ratio: 1;
+      border-radius: 36px;
+      background:
+        linear-gradient(160deg, #fff 0%, #fff 40%, #fff8f8 100%);
+      border: 1px solid rgba(255, 255, 255, 0.9);
+      box-shadow: var(--shadow), 0 0 0 1px rgba(227, 28, 35, 0.04);
+      display: grid;
+      place-items: center;
+      overflow: hidden;
+    }
+
+    .stage-card::before {
+      content: "";
+      position: absolute;
+      inset: -40% -20% auto auto;
+      width: 70%;
+      height: 70%;
+      background: radial-gradient(circle, rgba(227, 28, 35, 0.14), transparent 70%);
+      pointer-events: none;
+    }
+
+    .stage-card img {
+      width: 58%;
+      height: auto;
+      border-radius: 28px;
+      filter: drop-shadow(0 22px 40px rgba(227, 28, 35, 0.28));
+      animation: float 5.5s ease-in-out infinite;
+    }
+
+    @keyframes float {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-10px); }
+    }
+
+    .orb {
+      position: absolute;
+      border-radius: 50%;
+      filter: blur(2px);
+      pointer-events: none;
+    }
+    .orb-1 {
+      width: 88px; height: 88px;
+      left: 4%; bottom: 12%;
+      background: rgba(227, 28, 35, 0.12);
+    }
+    .orb-2 {
+      width: 48px; height: 48px;
+      right: 8%; top: 14%;
+      background: rgba(227, 28, 35, 0.1);
+    }
+
+    /* —— features —— */
+    .features {
+      padding: 0.5rem 0 3.5rem;
+    }
+
+    .section-head {
+      text-align: center;
+      margin-bottom: 1.75rem;
+    }
+
+    .section-head h2 {
+      font-size: clamp(1.4rem, 2.5vw, 1.85rem);
+      letter-spacing: -0.03em;
+      font-weight: 800;
+      margin-bottom: 0.35rem;
+    }
+
+    .section-head p {
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1rem;
+    }
+
+    .card {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      padding: 1.35rem 1.3rem 1.4rem;
+      box-shadow: var(--shadow-sm);
+      transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-3px);
+      box-shadow: var(--shadow);
+      border-color: #e3e3e8;
+    }
+
+    .icon {
+      width: 42px;
+      height: 42px;
+      border-radius: 12px;
+      display: grid;
+      place-items: center;
+      background: var(--red-soft);
+      color: var(--red);
+      margin-bottom: 0.95rem;
+    }
+
+    .icon svg { width: 22px; height: 22px; }
+
+    .card h3 {
+      font-size: 1.05rem;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+      margin-bottom: 0.35rem;
+    }
+
+    .card .zh { color: var(--ink-2); font-size: 0.92rem; margin-bottom: 0.2rem; }
+    .card .en { color: var(--muted); font-size: 0.84rem; }
+
+    /* —— download strip —— */
+    .strip {
+      margin-bottom: 3rem;
+      border-radius: 28px;
+      padding: 1.6rem 1.75rem;
+      background: linear-gradient(135deg, #E31C23 0%, #b81016 100%);
+      color: #fff;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1.2rem;
+      box-shadow: 0 20px 48px var(--red-glow);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .strip::after {
+      content: "";
+      position: absolute;
+      right: -40px;
+      top: -50px;
+      width: 180px;
+      height: 180px;
+      border-radius: 50%;
+      background: rgba(255, 255, 255, 0.08);
+      pointer-events: none;
+    }
+
+    .strip h2 {
+      font-size: 1.35rem;
+      font-weight: 800;
+      letter-spacing: -0.03em;
+      margin-bottom: 0.2rem;
+    }
+
+    .strip p {
+      opacity: 0.9;
+      font-size: 0.92rem;
+      max-width: 36rem;
+    }
+
+    .btn-on-red {
+      position: relative;
+      z-index: 1;
+      padding: 0.9rem 1.35rem;
+      background: #fff;
+      color: var(--red);
+      border-radius: 14px;
+      font-weight: 800;
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      box-shadow: 0 10px 24px rgba(0, 0, 0, 0.12);
+      transition: transform 0.18s ease;
+    }
+    .btn-on-red:hover { transform: translateY(-1px); }
+    .btn-on-red.is-disabled {
+      opacity: 0.7;
+      pointer-events: none;
+    }
+    .btn-on-red svg { width: 18px; height: 18px; }
+
+    /* —— footer —— */
+    footer {
+      border-top: 1px solid var(--line);
+      padding: 1.4rem 0 2rem;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.75rem 1.25rem;
+      align-items: center;
+      justify-content: space-between;
+      color: var(--muted);
+      font-size: 0.86rem;
+    }
+
+    footer a {
+      color: var(--ink-2);
+      text-decoration: none;
+      font-weight: 500;
+    }
+    footer a:hover { color: var(--red); }
+
+    /* —— toast for empty link —— */
+    .toast {
+      position: fixed;
+      left: 50%;
+      bottom: 1.5rem;
+      transform: translateX(-50%) translateY(120%);
+      background: var(--ink);
+      color: #fff;
+      padding: 0.75rem 1.1rem;
+      border-radius: 12px;
+      font-size: 0.9rem;
+      z-index: 50;
+      opacity: 0;
+      transition: transform 0.28s ease, opacity 0.28s ease;
+      box-shadow: 0 12px 32px rgba(0, 0, 0, 0.2);
+      max-width: calc(100% - 2rem);
+      text-align: center;
+    }
+    .toast.show {
+      transform: translateX(-50%) translateY(0);
+      opacity: 1;
+    }
+
+    @media (max-width: 860px) {
+      .hero {
+        grid-template-columns: 1fr;
+        gap: 1.75rem;
+        padding-top: 1.5rem;
+      }
+      .stage { order: -1; min-height: auto; }
+      .stage-card {
+        width: min(100%, 280px);
+        aspect-ratio: 1;
+        border-radius: 28px;
+      }
+      .grid { grid-template-columns: 1fr; }
+      .strip { flex-direction: column; align-items: flex-start; }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      .stage-card img { animation: none; }
+      .btn, .card, .toast { transition: none; }
+    }
+  </style>
 </head>
 <body>
-  <h1>welcome to YTV</h1>
+  <div class="wrap">
+    <header>
+      <a class="brand" href="./">
+        <img src="y.png" width="40" height="40" alt="YTV">
+        <span>YTV</span>
+      </a>
+      <a class="nav-link" href="https://t.me/blyen_ytv" target="_blank" rel="noopener noreferrer">社区 · Community</a>
+    </header>
+
+    <main>
+      <section class="hero" aria-labelledby="hero-title">
+        <div>
+          <div class="badge">Android · 免费下载 Free</div>
+          <h1 id="hero-title">你的频道，<em>一键开播</em></h1>
+          <p class="lead">YTV 把订阅源变成顺手的播放体验——轻量、干净、专注看内容。</p>
+          <p class="lead-en">YTV turns your playlist into a smooth watching experience — light, clean, content-first.</p>
+
+          <div class="cta-row">
+            <!-- 下载链接稍后替换 DOWNLOAD_URL -->
+            <a class="btn btn-primary" id="download-btn" href="#" role="button" data-platform="android">
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                <path d="M17.6 9.48 19.44 6.3a.5.5 0 0 0-.87-.5l-1.88 3.26A11.3 11.3 0 0 0 12 8c-1.65 0-3.2.35-4.69 1.06L5.43 5.8a.5.5 0 1 0-.87.5l1.84 3.18C3.63 11.2 2.5 13.94 2.5 17h19c0-3.06-1.13-5.8-3.9-7.52ZM8.5 14.25a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm7 0a1 1 0 1 1 0-2 1 1 0 0 1 0 2Z"/>
+              </svg>
+              <span>下载 Android 版</span>
+            </a>
+            <a class="btn btn-ghost" href="https://t.me/blyen_ytv" target="_blank" rel="noopener noreferrer">
+              加入交流群
+            </a>
+          </div>
+          <p class="meta" id="download-meta">Download for Android · APK · 链接待配置 / Link pending</p>
+        </div>
+
+        <div class="stage" aria-hidden="true">
+          <span class="orb orb-1"></span>
+          <span class="orb orb-2"></span>
+          <div class="stage-card">
+            <img src="3.jpg" width="200" height="200" alt="">
+          </div>
+        </div>
+      </section>
+
+      <section class="features" aria-labelledby="features-title">
+        <div class="section-head">
+          <h2 id="features-title">为什么选 YTV</h2>
+          <p>Why YTV · 为订阅源而生</p>
+        </div>
+        <div class="grid">
+          <article class="card">
+            <div class="icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="3" y="5" width="18" height="14" rx="2"/>
+                <path d="M8 3v4M16 3v4M3 10h18"/>
+              </svg>
+            </div>
+            <h3>订阅即用</h3>
+            <p class="zh">导入频道源，立刻开看，少折腾。</p>
+            <p class="en">Import playlists and start watching right away.</p>
+          </article>
+          <article class="card">
+            <div class="icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M13 2 4 14h7l-1 8 9-12h-7l1-8z"/>
+              </svg>
+            </div>
+            <h3>轻量流畅</h3>
+            <p class="zh">界面干净，启动快，专注播放本身。</p>
+            <p class="en">Clean UI, quick launch — built for playback.</p>
+          </article>
+          <article class="card">
+            <div class="icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+              </svg>
+            </div>
+            <h3>持续更新</h3>
+            <p class="zh">频道与体验不定期打磨，社区同步。</p>
+            <p class="en">Channels & app improve over time with the community.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="strip" aria-labelledby="strip-title">
+        <div>
+          <h2 id="strip-title">准备好了吗？Get YTV on Android</h2>
+          <p>一键下载安装包 · Get the APK and start streaming in minutes.</p>
+        </div>
+        <a class="btn-on-red" id="download-btn-2" href="#" role="button">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M12 3v12M7 11l5 5 5-5M5 21h14"/>
+          </svg>
+          Download APK
+        </a>
+      </section>
+    </main>
+
+    <footer>
+      <span>© YTV · 订阅源与播放体验</span>
+      <a href="https://t.me/blyen_ytv" target="_blank" rel="noopener noreferrer">Telegram: @blyen_ytv</a>
+    </footer>
+  </div>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script>
+    // ========== 把下面改成你的 Android 下载地址 ==========
+    const DOWNLOAD_URL = "https://github.com/blyenso-del/ytv/releases/download/v0.1/ytv_v0.1.apk";
+    // =====================================================
+
+    const toast = document.getElementById("toast");
+    const meta = document.getElementById("download-meta");
+    const buttons = [
+      document.getElementById("download-btn"),
+      document.getElementById("download-btn-2"),
+    ];
+
+    function showToast(msg) {
+      toast.textContent = msg;
+      toast.classList.add("show");
+      clearTimeout(showToast._t);
+      showToast._t = setTimeout(() => toast.classList.remove("show"), 2600);
+    }
+
+    function bindDownload(btn) {
+      if (!btn) return;
+      if (DOWNLOAD_URL) {
+        btn.href = DOWNLOAD_URL;
+        btn.removeAttribute("aria-disabled");
+        btn.classList.remove("is-disabled");
+        btn.addEventListener("click", () => {
+          // 正常跳转；若以后要统计可在此加
+        });
+      } else {
+        btn.href = "#";
+        btn.setAttribute("aria-disabled", "true");
+        btn.classList.add("is-disabled");
+        btn.addEventListener("click", (e) => {
+          e.preventDefault();
+          showToast("下载链接稍后配置 · Download link coming soon");
+        });
+        // 允许点击提示：去掉 pointer-events 限制，改用手写
+        btn.classList.remove("is-disabled");
+        btn.style.pointerEvents = "auto";
+        btn.style.cursor = "pointer";
+      }
+    }
+
+    buttons.forEach(bindDownload);
+
+    if (DOWNLOAD_URL) {
+      meta.textContent = "Download for Android · APK";
+    } else {
+      meta.textContent = "Download for Android · APK · 链接待配置 / Link pending";
+    }
+  </script>
 </body>
 </html>
