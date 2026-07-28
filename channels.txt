@@ -1,20 +1,13 @@
 #EXTM3U @blyen
-# --- HOY ---
-#EXTINF:-1 tvg-name="HOY TV" tvg-logo="" group-title="HOY",HOY TV
-https://cdn.qd.je/163189/hoy
-https://cdn.qd.je/163189/hoy2
-#EXTINF:-1 tvg-name="HOY国际财经台" tvg-logo="" group-title="HOY",HOY国际财经台
-https://cdn.qd.je/163189/hoy76
-#EXTINF:-1 tvg-name="HOY资讯台" tvg-logo="" group-title="HOY",HOY资讯台
-https://cdn.qd.je/163189/hoy78
-
 # --- 香港 ---
+#EXTINF:-1 tvg-name="无线新闻台" tvg-logo="" group-title="香港",无线新闻台
+https://cdn.qd.je/163189/wxxw
+#EXTINF:-1 tvg-name="NOW新闻台" tvg-logo="" group-title="香港",NOW新闻台
+https://cdn.qd.je/163189/now
 #EXTINF:-1 tvg-name="ViuTV" tvg-logo="" group-title="香港",ViuTV
 https://cdn.qd.je/163189/viu
 #EXTINF:-1 tvg-name="ViuTVsix" tvg-logo="" group-title="香港",ViuTVsix
 https://cdn.qd.je/163189/viu6
-#EXTINF:-1 tvg-name="NOW新闻台" tvg-logo="" group-title="香港",NOW新闻台
-https://cdn.qd.je/163189/now
 #EXTINF:-1 tvg-name="RTHK31" tvg-logo="" group-title="香港",RTHK31
 https://cdn.qd.je/163189/rthk31
 #EXTINF:-1 tvg-name="RTHK32" tvg-logo="" group-title="香港",RTHK32
@@ -25,14 +18,21 @@ https://cdn.qd.je/163189/fct
 https://cdn.qd.je/163189/tvbd
 #EXTINF:-1 tvg-name="华丽翡翠台(硬字幕)" tvg-logo="" group-title="香港",华丽翡翠台(硬字幕)
 https://cdn.qd.je/163189/jade
-#EXTINF:-1 tvg-name="无线新闻台" tvg-logo="" group-title="香港",无线新闻台
-https://cdn.qd.je/163189/wxxw
 #EXTINF:-1 tvg-name="TVB1" tvg-logo="" group-title="香港",TVB1
 https://cdn.qd.je/163189/tvb1
 #EXTINF:-1 tvg-name="TVBj1" tvg-logo="" group-title="香港",TVBj1
 https://cdn.qd.je/163189/j1
 #EXTINF:-1 tvg-name="TVB星河" tvg-logo="" group-title="香港",TVB星河
 https://cdn.qd.je/163189/xinghe
+
+# --- HOY ---
+#EXTINF:-1 tvg-name="HOY TV" tvg-logo="" group-title="HOY",HOY TV
+https://cdn.qd.je/163189/hoy
+https://cdn.qd.je/163189/hoy2
+#EXTINF:-1 tvg-name="HOY国际财经台" tvg-logo="" group-title="HOY",HOY国际财经台
+https://cdn.qd.je/163189/hoy76
+#EXTINF:-1 tvg-name="HOY资讯台" tvg-logo="" group-title="HOY",HOY资讯台
+https://cdn.qd.je/163189/hoy78
 
 # --- 澳门 ---
 #EXTINF:-1 tvg-id="stream-855d01c2-2dba-449a-be61-61a405b7db96" tvg-name="澳视卫星" tvg-logo="" group-title="澳门",澳视卫星
