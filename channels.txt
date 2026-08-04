@@ -92,7 +92,6 @@ https://test.946985.filegear-sg.me/proxy/49d77e00042efba8
 https://test.946985.filegear-sg.me/proxy/0d5035f9fec27aef
 #EXTINF:-1 tvg-id="stream-f51a1fe3-bb3c-46bc-8a3c-a5774a88da06" tvg-name="愛爾達體育1台" group-title="台湾测试频道",愛爾達體育1台
 https://test.946985.filegear-sg.me/proxy/abe27bc2ce17de3e
-#EXTINF:-1 tvg-id="stream-f51a1fe3-bb3c-46bc-8a3c-a5774a88da06" tvg-name="愛爾達體育1台" group-title="台湾测试频道",愛爾達體育1台
 http://107.148.225.116:10010/api/flv.txt?token=test&id=5
 #EXTINF:-1 tvg-id="stream-c32d8224-84b5-4a61-810b-ee2e1f674ad7" tvg-name="愛爾達體育2台" group-title="台湾测试频道",愛爾達體育2台
 https://test.946985.filegear-sg.me/proxy/89c0e0ff6563369a
@@ -102,31 +101,25 @@ https://test.946985.filegear-sg.me/proxy/47b35e7882fe4848
 https://test.946985.filegear-sg.me/proxy/6eea627132a2b7d4
 #EXTINF:-1 tvg-id="stream-afb57551-9c0f-413b-94a7-2e3aa69260cf" tvg-name="爱尔达综合台" group-title="台湾测试频道",爱尔达综合台
 https://test.946985.filegear-sg.me/proxy/f2a049a3c6faaff4
-#EXTINF:-1 tvg-id="stream-afb57551-9c0f-413b-94a7-2e3aa69260cf" tvg-name="爱尔达综合台" group-title="台湾测试频道",爱尔达综合台
 http://107.148.225.116:10010/api/flv.txt?token=test&id=1
 #EXTINF:-1 tvg-id="stream-f1389a22-c715-448c-b557-7588e5c9e13d" tvg-name="tvN" group-title="台湾测试频道",tvN
 https://test.946985.filegear-sg.me/proxy/37501166405cd7eb
 #EXTINF:-1 tvg-id="stream-f24691de-dab0-4e08-aa81-f74170fb3838" tvg-name="华艺中文台" group-title="台湾测试频道",华艺中文台
 https://test.946985.filegear-sg.me/proxy/f87afade01cfb272
-#EXTINF:-1 tvg-id="stream-f24691de-dab0-4e08-aa81-f74170fb3838" tvg-name="华艺中文台" group-title="台湾测试频道",华艺中文台
 http://107.148.225.116:10010/api/flv.txt?token=test&id=3
 #EXTINF:-1 tvg-id="stream-846f9eda-f1d8-41a6-9a7e-2f8f1a15266c" tvg-name="爱尔达日韩台" group-title="台湾测试频道",爱尔达日韩台
 https://test.946985.filegear-sg.me/proxy/aebe418890dc037e
-#EXTINF:-1 tvg-id="stream-846f9eda-f1d8-41a6-9a7e-2f8f1a15266c" tvg-name="爱尔达日韩台" group-title="台湾测试频道",爱尔达日韩台
 http://107.148.225.116:10010/api/flv.txt?token=test&id=4
 #EXTINF:-1 tvg-id="stream-a8e8d4a3-6040-42cc-8e0f-483be1892a45" tvg-name="爱尔达影视台" group-title="台湾测试频道",爱尔达影视台
 https://test.946985.filegear-sg.me/proxy/f7316d5e5f6e5fba
-#EXTINF:-1 tvg-id="stream-a8e8d4a3-6040-42cc-8e0f-483be1892a45" tvg-name="爱尔达影视台" group-title="台湾测试频道",爱尔达影视台
 http://107.148.225.116:10010/api/flv.txt?token=test&id=7
 #EXTINF:-1 tvg-id="stream-44642a23-cc86-4a49-b28b-713db115efd5" tvg-name="Hami體育2台" group-title="台湾测试频道",Hami體育2台
 https://test.946985.filegear-sg.me/proxy/ef7aec6726d3e4a3
 #EXTINF:-1 tvg-id="stream-5896b6bc-9e8b-47cd-aade-3bdde20aecd2" tvg-name="龙华影视" group-title="台湾测试频道",龙华影视
 https://test.946985.filegear-sg.me/proxy/1ddd9ff49da143b8
-#EXTINF:-1 tvg-id="stream-5896b6bc-9e8b-47cd-aade-3bdde20aecd2" tvg-name="龙华影视" group-title="台湾测试频道",龙华影视
 http://107.148.225.116:10010/api/flv.txt?token=test&id=2
 #EXTINF:-1 tvg-id="stream-e22bd941-672f-4588-8a9a-db7e26807c80" tvg-name="麦哲伦频道" group-title="台湾测试频道",麦哲伦频道
 https://test.946985.filegear-sg.me/proxy/f1a7a4695c6b3c27
-#EXTINF:-1 tvg-id="stream-e22bd941-672f-4588-8a9a-db7e26807c80" tvg-name="麦哲伦频道" group-title="台湾测试频道",麦哲伦频道
 http://107.148.225.116:10010/api/flv.txt?token=test&id=10
 #EXTINF:-1 tvg-id="stream-d40489a9-85d7-4b48-8f1f-2933ccf7bc63" tvg-name="CN卡通" group-title="台湾测试频道",CN卡通
 https://test.946985.filegear-sg.me/proxy/e23b89594ebaff82
