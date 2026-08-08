@@ -27,6 +27,7 @@ https://cdn.qd.je/163189/xinghe
 # --- HOY ---
 #EXTINF:-1 tvg-name="HOY TV" tvg-logo="" group-title="HOY",HOY TV
 https://cdn.qd.je/163189/hoy
+#EXTINF:-1 tvg-name="HOY TV" tvg-logo="" group-title="HOY",HOY TV
 https://cdn.qd.je/163189/hoy2
 #EXTINF:-1 tvg-name="HOY国际财经台" tvg-logo="" group-title="HOY",HOY国际财经台
 https://cdn.qd.je/163189/hoy76
@@ -46,17 +47,27 @@ https://cdn.qd.je/163189/amlh
 # --- 凤凰 ---
 #EXTINF:-1 tvg-name="凤凰中文" tvg-logo="" group-title="凤凰",凤凰中文
 https://cdn.qd.je/163189/fhzw
+#EXTINF:-1 tvg-name="凤凰中文" tvg-logo="" group-title="凤凰",凤凰中文
 http://php.tech-miao.top/live/all.php?id=ga-fenghuangzw&n=1
+#EXTINF:-1 tvg-name="凤凰中文" tvg-logo="" group-title="凤凰",凤凰中文
 http://120.198.95.220:9901/tsfile/live/1037_1.m3u8
+#EXTINF:-1 tvg-name="凤凰中文" tvg-logo="" group-title="凤凰",凤凰中文
 http://113.26.251.182:8009/hls/71/index.m3u8
+#EXTINF:-1 tvg-name="凤凰中文" tvg-logo="" group-title="凤凰",凤凰中文
 http://120.198.95.220:9901/tsfile/live/1036_1.m3u8?key=txiptv
 #EXTINF:-1 tvg-name="凤凰资讯" tvg-logo="" group-title="凤凰",凤凰资讯
 https://cdn.qd.je/163189/fhzx
+#EXTINF:-1 tvg-name="凤凰资讯" tvg-logo="" group-title="凤凰",凤凰资讯
 http://120.198.95.220:9901/tsfile/live/1037_1.m3u8?key=txiptv
+#EXTINF:-1 tvg-name="凤凰资讯" tvg-logo="" group-title="凤凰",凤凰资讯
 http://113.26.251.182:8009/hls/70/index.m3u8
+#EXTINF:-1 tvg-name="凤凰资讯" tvg-logo="" group-title="凤凰",凤凰资讯
 http://php.tech-miao.top/live/all.php?id=ga-fenghuangzx&n=4
+#EXTINF:-1 tvg-name="凤凰资讯" tvg-logo="" group-title="凤凰",凤凰资讯
 http://221.7.175.154:8445/tsfile/live/1021_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 tvg-name="凤凰资讯" tvg-logo="" group-title="凤凰",凤凰资讯
 http://php.tech-miao.top/live/all.php?id=ga-fenghuangzx&n=2
+#EXTINF:-1 tvg-name="凤凰资讯" tvg-logo="" group-title="凤凰",凤凰资讯
 http://120.198.95.220:9901/tsfile/live/1036_1.m3u8
 #EXTINF:-1 tvg-name="凤凰资讯电台" tvg-logo="" group-title="凤凰",凤凰资讯电台
 https://playtv-live.ifeng.com/live/06OLEEWQKN4_audio.m3u8
@@ -157,15 +168,18 @@ https://cdn.qd.je/163189/cctv5
 https://cdn.qd.je/163189/cctv5p
 #EXTINF:-1 tvg-name="CCTV13" tvg-logo="" group-title="体育",CCTV13
 https://cdn.qd.je/163189/cctv13
+#EXTINF:-1 tvg-name="CCTV13" tvg-logo="" group-title="体育",CCTV13
 https://cdn.qd.je/163189/cctv13-2
 #EXTINF:-1 tvg-name="CCTV16" tvg-logo="" group-title="体育",CCTV16
 https://cdn.qd.je/163189/cctv16
+#EXTINF:-1 tvg-name="CCTV16" tvg-logo="" group-title="体育",CCTV16
 https://cdn.qd.je/163189/cctv16-2
 #EXTINF:-1 tvg-name="五星体育" tvg-logo="" group-title="体育",五星体育
 https://cdn.qd.je/163189/wxty
 # --- 综合 ---
 #EXTINF:-1 tvg-name="海峡卫视" tvg-logo="" group-title="综合",海峡卫视
 https://cdn.qd.je/163189/hxws
+#EXTINF:-1 tvg-name="海峡卫视" tvg-logo="" group-title="综合",海峡卫视
 https://cdn.qd.je/163189/hxws2
 #EXTINF:-1 tvg-name="重温经典" tvg-logo="" group-title="综合",重温经典
 https://cdn.qd.je/163189/cwjd
