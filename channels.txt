@@ -1,4 +1,4 @@
-#EXTM3U @blyen
+#EXTM3U @t.me/holy_ytv
 # --- 香港 ---
 #EXTINF:-1 tvg-name="无线新闻台" tvg-logo="" group-title="香港",无线新闻台
 https://cdn.qd.je/163189/wxxw
