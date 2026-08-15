@@ -30,3 +30,6 @@ cpa_auth_failed.txt
 *.pending.jsonl.lock
 .tmp/
 .serena/
+*.py
+iptv_updater.py
+*.bat
