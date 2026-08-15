@@ -436,6 +436,41 @@
       font-size: 0.86rem;
     }
 
+    .footer-counter {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.45rem;
+      padding: 0.3rem 0.8rem;
+      border-radius: 999px;
+      background: var(--red-soft);
+      color: var(--ink-2);
+      font-size: 0.78rem;
+      font-weight: 500;
+      border: 1px solid rgba(227, 28, 35, 0.12);
+      letter-spacing: 0.01em;
+    }
+
+    .counter-dot {
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      background: var(--red);
+      box-shadow: 0 0 0 2px rgba(227, 28, 35, 0.25);
+      animation: pulse 2.4s ease-in-out infinite;
+    }
+
+    .footer-counter strong {
+      color: var(--red);
+      font-weight: 700;
+      font-feature-settings: "tnum";
+      font-variant-numeric: tabular-nums;
+    }
+
+    .counter-sep {
+      color: rgba(227, 28, 35, 0.25);
+      font-weight: 300;
+    }
+
     footer a {
       color: var(--ink-2);
       text-decoration: none;
@@ -586,15 +621,24 @@
 
     <footer>
       <span>© YTV · 装好就看</span>
+      <div class="footer-counter" id="busuanzi_container_site_pv" title="访问统计">
+        <span class="counter-dot" aria-hidden="true"></span>
+        <span id="busuanzi_container_site_uv">访客 <strong id="busuanzi_value_site_uv">-</strong></span>
+        <span class="counter-sep">/</span>
+        <span>浏览 <strong id="busuanzi_value_site_pv">-</strong></span>
+      </div>
       <a href="https://t.me/holy_ytv" target="_blank" rel="noopener noreferrer">Telegram: @holy_ytv</a>
     </footer>
   </div>
 
   <div class="toast" id="toast" role="status" aria-live="polite"></div>
 
+  <!-- 不蒜子访客统计脚本 -->
+  <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
   <script>
     // ========== 把下面改成你的 Android 下载地址 ==========
-    const DOWNLOAD_URL = "https://pan.quark.cn/s/0fb97b245b79";
+    const DOWNLOAD_URL = "https://pan.quark.cn/s/8751da6fd392";
     // =====================================================
 
     const toast = document.getElementById("toast");
