@@ -169,8 +169,14 @@ https://cdn.qd.je/163189/viu6
 https://cdn.qd.je/live/viu6/stream.m3u8
 #EXTINF:-1 tvg-id="Now新闻台" tvg-name="Now新闻台" tvg-logo="https://live.fanmingming.cn/tv/Now新闻台.png" group-title="港澳台",Now新闻台
 https://cdn.qd.je/live/now/stream.m3u8
-#EXTINF:-1 tvg-id="HOY 2" tvg-name="HOY 2" tvg-logo="https://live.fanmingming.cn/tv/HOY 2.png" group-title="港澳台",HOY 2
+#EXTINF:-1 tvg-name="HOY TV" tvg-logo="" group-title="HOY",HOY TV
+https://cdn.qd.je/163189/hoy
+#EXTINF:-1 tvg-name="HOY 2" tvg-logo="" group-title="HOY",HOY TV
 https://cdn.qd.je/163189/hoy2
+#EXTINF:-1 tvg-name="HOY国际财经台" tvg-logo="" group-title="HOY",HOY国际财经台
+https://cdn.qd.je/163189/hoy76
+#EXTINF:-1 tvg-name="HOY资讯台" tvg-logo="" group-title="HOY",HOY资讯台
+https://cdn.qd.je/163189/hoy78
 #EXTINF:-1 tvg-id="澳视澳门" tvg-name="澳视澳门" tvg-logo="https://live.fanmingming.cn/tv/澳视澳门.png" group-title="港澳台",澳视澳门
 https://cdn.qd.je/163189/asam
 #EXTINF:-1 tvg-id="澳视卫星" tvg-name="澳视卫星" tvg-logo="https://live.fanmingming.cn/tv/澳视卫星.png" group-title="港澳台",澳视卫星
