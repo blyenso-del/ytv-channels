@@ -33,3 +33,5 @@ cpa_auth_failed.txt
 *.py
 iptv_updater.py
 *.bat
+*.ps1
+update_iptv.ps1
