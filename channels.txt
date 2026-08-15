@@ -1,5 +1,1 @@
 #EXTM3U @t.me/holy_ytv
-# --- 央视 ---
-#EXTINF:-1 tvg-id="CCTV1" tvg-name="CCTV1" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/main/tv/CCTV1.png" group-title="央视",CCTV1
-webview://https://tv.cctv.com/live/cctv1
-
