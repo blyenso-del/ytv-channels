@@ -1013,3 +1013,5 @@ http://iptv.852851.xyz/l/WVo4ZBTnWItlaMFhpPdcwuTNjr1vOUIuzT5TNf5683xYg-4gODyP0d9
 http://iptv.852851.xyz/l/wnua7IZ5q5dd6FJMAsL18C0SpPyduiNvo4Q89ZjVbCqAOznULUB-dGbxBSitHc_2/index.m3u8
 #EXTINF:-1 tvg-id="NBA TV" tvg-name="NBA TV" tvg-logo="https://live.fanmingming.cn/tv/NBA TV.png" group-title="体育频道",NBA TV
 https://cdn.qd.je/163189/nbatv
+#EXTINF:-1 tvg-id="NBA TV" tvg-name="NBA TV" tvg-logo="https://live.fanmingming.cn/tv/NBA TV.png" group-title="体育频道",NBA TV
+https://cdn.qd.je/163189/cctv1

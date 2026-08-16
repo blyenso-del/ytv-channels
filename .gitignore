@@ -11,6 +11,7 @@ accounts_*.txt
 mail_credentials.txt
 *.txt
 !requirements.txt
+!robots.txt
 
 config.json
 config.local.json
@@ -24,7 +25,6 @@ autoPortData/
 cpa_auths/
 xai-*.json
 cpa_auth_failed.txt
-*.txt
 
 *.pending.jsonl
 *.pending.jsonl.lock
