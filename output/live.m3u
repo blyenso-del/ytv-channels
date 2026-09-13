@@ -613,10 +613,22 @@ http://iptv.cqshushu.com/gddf.php?id=fhhk&token=d9b4e1beaef5aaf4b4f7a0a47a6ef3e3
 http://iptv.cqshushu.com/gddf.php?id=fhhk&token=e9ed76e5205b3f8deb8c9f0bf25ff0be
 #EXTINF:-1 tvg-id="凤凰卫视香港台" tvg-name="凤凰卫视香港台" tvg-logo="http://iptv.cqshushu.com/tv-logo/%E5%87%A4%E5%87%B0%E9%A6%99%E6%B8%AF.png" group-title="港澳台",凤凰卫视香港台
 http://iptv.cqshushu.com/gddf.php?id=fhhk&token=422a3d1ac749293fc948b0829b2235db
+#EXTINF:-1 tvg-id="ViuTV" tvg-name="ViuTV" tvg-logo="https://live.fanmingming.cn/tv/ViuTV.png" group-title="港澳台",ViuTV
+http://iptv.852851.xyz/l/Uej02G1Cz6EGWnNLhSNXgo9JPeNeo1TcmEz0yZoJDQXnrs780lMeAaeMnDRL_qXc/index.m3u8
+#EXTINF:-1 tvg-id="ViuTV" tvg-name="ViuTV" tvg-logo="https://live.fanmingming.cn/tv/ViuTV.png" group-title="港澳台",ViuTV
+https://fast.hidns.vip/163189/viu
+#EXTINF:-1 tvg-id="ViuTVsix" tvg-name="ViuTVsix" tvg-logo="https://live.fanmingming.cn/tv/ViuTVsix.png" group-title="港澳台",ViuTVsix
+https://fast.hidns.vip/163189/viu6
+#EXTINF:-1 tvg-id="Now新闻台" tvg-name="Now新闻台" tvg-logo="https://live.fanmingming.cn/tv/Now新闻台.png" group-title="港澳台",Now新闻台
+http://iptv.852851.xyz/l/0uG2gp1-XJhCKanSZwj5agG_CQtb1OI_ddW2D8_QrWhuHxtLREWArEpO-KqhMdHD/index.m3u8
+#EXTINF:-1 tvg-id="Now新闻台" tvg-name="Now新闻台" tvg-logo="https://live.fanmingming.cn/tv/Now新闻台.png" group-title="港澳台",Now新闻台
+https://fast.hidns.vip/163189/now
 #EXTINF:-1 tvg-id="Now爆谷星影台" tvg-name="Now爆谷星影台" tvg-logo="https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/now5.png" group-title="港澳台",Now爆谷星影台
 http://iptv.852851.xyz/l/5gC9h6XtL1X3bJoC55t2qVlMPysmpR1MOrEigXzD1If0rc4moQDCzruuZ2JwV18A/index.m3u8
 #EXTINF:-1 tvg-id="HOY TV" tvg-name="HOY TV" tvg-logo="https://epg.112114.xyz/logo/HOY77.png" group-title="港澳台",HOY TV
 http://play.wenxiang.cn/live/43dc6fc9b1af5af8ec332f3c88b95e4a.flv
+#EXTINF:-1 tvg-id="HOY 国际财经台" tvg-name="HOY 国际财经台" tvg-logo="https://epg.112114.xyz/logo/HOY76.png" group-title="港澳台",HOY 国际财经台
+http://play.wenxiang.cn/live/02267bba92f0f4b8291abefa0560664f.flv
 #EXTINF:-1 tvg-id="HOY 资讯台" tvg-name="HOY 资讯台" tvg-logo="https://epg.112114.xyz/logo/HOY78.png" group-title="港澳台",HOY 资讯台
 http://play.wenxiang.cn/live/cf4526f51988d0ed065b5c3fa4bc925d.flv
 #EXTINF:-1 tvg-id="澳门综艺" tvg-name="澳门综艺" tvg-logo="https://epg.112114.xyz/logo/澳门综艺.png" group-title="港澳台",澳门综艺
