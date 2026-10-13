@@ -618,6 +618,10 @@ https://cdn3.indevs.in/stream/live/tvbxh/
 #EXTINF:-1 tvg-id="TVB星河" tvg-name="TVB星河" tvg-logo="https://live.fanmingming.cn/tv/TVB星河.png" group-title="港澳台",TVB星河
 https://cdn3.indevs.in/stream/live/tvb-xh/
 #EXTINF:-1 tvg-id="无线新闻台" tvg-name="无线新闻台" tvg-logo="https://live.fanmingming.cn/tv/无线新闻台.png" group-title="港澳台",无线新闻台
+https://cdn6.cc.cd/163189/wxxw
+#EXTINF:-1 tvg-id="无线新闻台" tvg-name="无线新闻台" tvg-logo="https://live.fanmingming.cn/tv/无线新闻台.png" group-title="港澳台",无线新闻台
+https://cdn.qd.je/163189/wxxw
+#EXTINF:-1 tvg-id="无线新闻台" tvg-name="无线新闻台" tvg-logo="https://live.fanmingming.cn/tv/无线新闻台.png" group-title="港澳台",无线新闻台
 webview://https://news.tvb.com/tc/live/83
 #EXTINF:-1 tvg-id="Now新闻台" tvg-name="Now新闻台" tvg-logo="https://live.fanmingming.cn/tv/Now新闻台.png" group-title="港澳台",Now新闻台
 https://fast.hidns.vip/163189/now
