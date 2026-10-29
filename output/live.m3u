@@ -1019,12 +1019,12 @@ https://live-hls-apps-aje-fa.getaj.net/AJE/index.m3u8
 http://stream.mcquack.net/131/index.m3u8
 #EXTINF:-1 tvg-id="RT News" tvg-name="RT News" tvg-logo="https://live.fanmingming.cn/tv/RTNews.png" group-title="新马海外",RT News
 https://rt-glb.rttv.com/dvr/rtnews/playlist_4500Kb.m3u8
+#EXTINF:-1 tvg-id="周星驰" tvg-name="周星驰" tvg-logo="https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/周星驰.png" group-title="经典影视",周星驰
+http://74.91.26.218:82/live/vlzxc.m3u8
 #EXTINF:-1 tvg-id="周星驰" tvg-name="周星驰" tvg-logo="https://live.fanmingming.cn/tv/周星驰.png" group-title="经典影视",周星驰
 https://huya.445569.xyz/live/30631741
 #EXTINF:-1 tvg-id="周星驰" tvg-name="周星驰" tvg-logo="https://live.fanmingming.cn/tv/周星驰.png" group-title="经典影视",周星驰
 https://huya.445569.xyz/live/11342412
-#EXTINF:-1 tvg-id="周星驰" tvg-name="周星驰" tvg-logo="https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/周星驰.png" group-title="经典影视",周星驰
-http://74.91.26.218:82/live/vlzxc.m3u8
 #EXTINF:-1 tvg-id="成龙" tvg-name="成龙" tvg-logo="https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/成龙.png" group-title="经典影视",成龙
 http://74.91.26.218:82/live/vlcl.m3u8
 #EXTINF:-1 tvg-id="刘德华" tvg-name="刘德华" tvg-logo="https://live.fanmingming.cn/tv/刘德华.png" group-title="经典影视",刘德华
