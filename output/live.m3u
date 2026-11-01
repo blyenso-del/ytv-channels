@@ -792,7 +792,13 @@ https://cdn3.indevs.in/stream/tvb/tvbp/
 #EXTINF:-1 tvg-id="TVB Plus" tvg-name="TVB Plus" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/TVB Plus.png" group-title="港澳台",TVB Plus
 http://r.jdshipin.com/ndGgS
 #EXTINF:-1 tvg-id="无线新闻台" tvg-name="无线新闻台" tvg-logo="https://live.fanmingming.cn/tv/无线新闻台.png" group-title="港澳台",无线新闻台
-webview://https://news.tvb.com/tc/live/83
+https://cdn6.cc.cd/163189/wxxw
+#EXTINF:-1 tvg-id="无线新闻台" tvg-name="无线新闻台" tvg-logo="https://live.fanmingming.cn/tv/无线新闻台.png" group-title="港澳台",无线新闻台
+https://cdn.qd.je/163189/wxxw
+#EXTINF:-1 tvg-id="无线新闻台" tvg-name="无线新闻台" tvg-logo="https://live.fanmingming.cn/tv/无线新闻台.png" group-title="港澳台",无线新闻台
+http://f.123.rr.kg/163189/wxxw
+#EXTINF:-1 tvg-id="无线新闻台" tvg-name="无线新闻台" tvg-logo="https://live.fanmingming.cn/tv/无线新闻台.png" group-title="港澳台",无线新闻台
+https://fast.hidns.vip/163189/wxxw
 #EXTINF:-1 tvg-id="华丽翡翠台" tvg-name="华丽翡翠台" tvg-logo="https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/TVB1.png" group-title="港澳台",华丽翡翠台
 http://103.172.187.30:12000/stream/mytv/null-1/master.m3u8
 #EXTINF:-1 tvg-id="TVB1" tvg-name="TVB1" tvg-logo="https://live.fanmingming.cn/tv/TVB1.png" group-title="港澳台",TVB1
