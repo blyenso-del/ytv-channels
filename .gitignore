@@ -13,6 +13,8 @@ mail_credentials.txt
 !requirements.txt
 !robots.txt
 !channels.txt
+!zbty_blacklist.txt
+!output/zbty_whitelist.txt
 
 config.json
 config.local.json
@@ -38,3 +40,5 @@ iptv_updater.py
 up.ps1
 up.bat
 update_iptv.ps1
+sys/
+.serena/
