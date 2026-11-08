@@ -229,12 +229,10 @@ https://iptv.catvod.com/live.php?id=CCTV-12
 http://124.165.251.82:85/tsfile/live/0012_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 tvg-id="CCTV-12" tvg-name="CCTV-12" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV12.png" group-title="央视频道",CCTV-12
 http://38.75.136.137:98/gslb/dsdqbv/cctv12hd.m3u8?auth=test20251009
-#EXTINF:-1 tvg-id="CCTV-13" tvg-name="CCTV-13" tvg-logo="https://tb.zbds.top/logo/CCTV13.png" group-title="央视频道",CCTV-13
-http://ali-m-l.cztv.com/channels/lantian/channel21/1080p.m3u8
-#EXTINF:-1 tvg-id="CCTV-13" tvg-name="CCTV-13" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV13.png" group-title="央视频道",CCTV-13
-https://event.pull.hebtv.com/jishi/cp1.m3u8
 #EXTINF:-1 tvg-id="CCTV-13" tvg-name="CCTV-13" tvg-logo="https://i.imgur.com/6MTar6J.png" group-title="央视频道",CCTV-13
 http://74.91.26.218:82/live/cctv13hd.m3u8
+#EXTINF:-1 tvg-id="CCTV-13" tvg-name="CCTV-13" tvg-logo="https://tb.zbds.top/logo/CCTV13.png" group-title="央视频道",CCTV-13
+http://ali-m-l.cztv.com/channels/lantian/channel21/1080p.m3u8
 #EXTINF:-1 tvg-id="CCTV-13" tvg-name="CCTV-13" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV13.png" group-title="央视频道",CCTV-13
 http://38.75.136.137:98/gslb/dsdqbv/cctv13hd.m3u8?auth=test20251009
 #EXTINF:-1 tvg-id="CCTV-13" tvg-name="CCTV-13" tvg-logo="https://live.fanmingming.cn/tv/CCTV13.png" http-user-agent="AptvPlayer-UA" group-title="央视频道",CCTV-13
@@ -247,6 +245,8 @@ http://39.165.39.49:19901/tsfile/live/1084_1.m3u8?key=txiptv&playlive=0&authid=0
 https://iptv.catvod.com/live.php?id=CCTV-13
 #EXTINF:-1 tvg-id="CCTV-13" tvg-name="CCTV-13" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV13.png" group-title="央视频道",CCTV-13
 http://63.141.230.178:82/gslb/zbdq5.m3u8?id=cctv13hd
+#EXTINF:-1 tvg-id="CCTV-13" tvg-name="CCTV-13" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV13.png" group-title="央视频道",CCTV-13
+https://event.pull.hebtv.com/jishi/cp1.m3u8
 #EXTINF:-1 tvg-id="CCTV-14" tvg-name="CCTV-14" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV14.png" group-title="央视频道",CCTV-14
 http://173.208.212.130:8181/1080p/cctv14.m3u8
 #EXTINF:-1 tvg-id="CCTV-14" tvg-name="CCTV-14" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV14.png" group-title="央视频道",CCTV-14
@@ -1151,7 +1151,6 @@ https://huya.445569.xyz/live/124392
 https://huya.445569.xyz/live/51888
 #EXTINF:-1 tvg-id="小醋鱼呀" tvg-name="小醋鱼呀" tvg-logo="https://tx-live-cover.msstatic.com/huyalive/1199516898824-1199516898824-5244254883455959040-2399033921104-10057-A-0-1/20261029150809.jpg?sign=ZBe8Pb5u0CH3KXe3M+olUY+8RsxhPTEyNTM0OTg3MDEmYj1odXlhLXNjcmVlbnNob3RzLXJldmlldy0xMjUzNDk4NzAxJms9QUtJRFFpcTNSbEJtV0p6ZUxKTVZrMklWdVEybm1pY2RkRWdEJmU9MTgwODgwOTY5MCZ0PTE3OTMyNTc2OTAmcj0xMjM0NTY3OCZmPS9odXlhbGl2ZS8xMTk5NTE2ODk4ODI0LTExOTk1MTY4OTg4MjQtNTI0NDI1NDg4MzQ1NTk1OTA0MC0yMzk5MDMzOTIxMTA0LTEwMDU3LUEtMC0xLzIwMjYxMDI5MTUwODA5LmpwZw==" group-title="虎牙直播",小醋鱼呀
 https://huya.445569.xyz/live/134862
-
 #EXTINF:-1 tvg-id="大家好 我曾小咸又回来啦" tvg-name="大家好 我曾小咸又回来啦" tvg-logo="http://live-cover.msstatic.com/huyalive/1388474069-1388474069-5963450717699047424-2777071594-10057-A-0-1/20261101083719.jpg" group-title="点播剧1",大家好 我曾小咸又回来啦
 https://huya.445569.xyz/live/11336726
 #EXTINF:-1 tvg-id="铁齿铜牙纪晓岚 经典铁三角组合" tvg-name="铁齿铜牙纪晓岚 经典铁三角组合" tvg-logo="http://live-cover.msstatic.com/huyalive/1394565204-1394565204-5989611943319568384-2789253864-10057-A-0-1/20261101083720.jpg" group-title="点播剧1",铁齿铜牙纪晓岚 经典铁三角组合
@@ -1376,12 +1375,12 @@ https://huya.445569.xyz/live/20432231
 https://huya.445569.xyz/live/23902242
 #EXTINF:-1 tvg-id="欢迎来到我的直播间" tvg-name="欢迎来到我的直播间" tvg-logo="https://tx-live-cover.msstatic.com/huyalive/1239543864998-1239543864998-11138068895498240000-2479087853452-10057-A-0-1/20261101083750.jpg?sign=DQ+9WgbjEMUA9KDDVI/6hiHG7tlhPTEyNTM0OTg3MDEmYj1odXlhLXNjcmVlbnNob3RzLXJldmlldy0xMjUzNDk4NzAxJms9QUtJRFFpcTNSbEJtV0p6ZUxKTVZrMklWdVEybm1pY2RkRWdEJmU9MTgwOTA0NTQ3MSZ0PTE3OTM0OTM0NzEmcj0xMjM0NTY3OCZmPS9odXlhbGl2ZS8xMjM5NTQzODY0OTk4LTEyMzk1NDM4NjQ5OTgtMTExMzgwNjg4OTU0OTgyNDAwMDAtMjQ3OTA4Nzg1MzQ1Mi0xMDA1Ny1BLTAtMS8yMDI2MTEwMTA4Mzc1MC5qcGc=" group-title="点播剧1",欢迎来到我的直播间
 https://huya.445569.xyz/live/30826138
+#EXTINF:-1 tvg-id="欢迎来到我的直播间" tvg-name="欢迎来到我的直播间" tvg-logo="http://live-cover.msstatic.com/huyalive/1099531752812-1099531752812-86436371450822656-2199063629080-10057-A-0-1/20261101083808.jpg" group-title="点播剧1",欢迎来到我的直播间
+https://huya.445569.xyz/live/21059624
 #EXTINF:-1 tvg-id="《巾帼枭雄》最狠名场面！柴九这句台词封神了" tvg-name="《巾帼枭雄》最狠名场面！柴九这句台词封神了" tvg-logo="http://live-cover.msstatic.com/huyalive/1099531752745-1099531752745-86436083688013824-2199063628946-10057-A-0-1/20261101083806.jpg" group-title="点播剧1",《巾帼枭雄》最狠名场面！柴九这句台词封神了
 https://huya.445569.xyz/live/21059550
 #EXTINF:-1 tvg-id="经典已成绝响，这么好的剧应该值9分啊" tvg-name="经典已成绝响，这么好的剧应该值9分啊" tvg-logo="http://live-cover.msstatic.com/huyalive/1239543150768-1239543150768-11135001301006417920-2479086424992-10057-A-0-1/20261101083802.jpg" group-title="点播剧1",经典已成绝响，这么好的剧应该值9分啊
 https://huya.445569.xyz/live/29982690
-#EXTINF:-1 tvg-id="欢迎来到我的直播间" tvg-name="欢迎来到我的直播间" tvg-logo="http://live-cover.msstatic.com/huyalive/1099531752812-1099531752812-86436371450822656-2199063629080-10057-A-0-1/20261101083808.jpg" group-title="点播剧1",欢迎来到我的直播间
-https://huya.445569.xyz/live/21059624
 #EXTINF:-1 tvg-id="老实的小王漫妮，揭秘上海富婆圈" tvg-name="老实的小王漫妮，揭秘上海富婆圈" tvg-logo="http://live-cover.msstatic.com/huyalive/1099531752797-1099531752797-86436307026313216-2199063629050-10057-A-0-1/20261101083709.jpg" group-title="点播剧1",老实的小王漫妮，揭秘上海富婆圈
 https://huya.445569.xyz/live/21059609
 #EXTINF:-1 tvg-id="鉴证实录 早期的港剧，堪称经典" tvg-name="鉴证实录 早期的港剧，堪称经典" tvg-logo="http://live-cover.msstatic.com/huyalive/1099531753534-1099531753534-86439472417210368-2199063630524-10057-A-0-1/20261101083808.jpg" group-title="点播剧1",鉴证实录 早期的港剧，堪称经典
@@ -1434,8 +1433,10 @@ https://huya.445569.xyz/live/31316013
 https://huya.445569.xyz/live/31388739
 #EXTINF:-1 tvg-id="齐鲁影视" tvg-name="齐鲁影视" tvg-logo="http://live-cover.msstatic.com/huyalive/1199641321485-1199641321485-5778646143332253696-2399282766426-10057-A-0-1/20261101082951.jpg" group-title="点播剧2",齐鲁影视
 https://huya.445569.xyz/live/29807061
-#EXTINF:-1 tvg-id="欢迎来到我的直播间" tvg-name="欢迎来到我的直播间" tvg-logo="http://live-cover.msstatic.com/huyalive/94525224-2583571962-11096357083652554752-3503038830-10057-A-0-1/20261101083754.jpg" group-title="点播剧2",欢迎来到我的直播间
-https://huya.445569.xyz/live/13303478
+#EXTINF:-1 tvg-id="欢迎来到我的直播间" tvg-name="欢迎来到我的直播间" tvg-logo="https://tx-live-cover.msstatic.com/huyalive/1239543864998-1239543864998-11138068895498240000-2479087853452-10057-A-0-1/20261101083750.jpg?sign=DQ+9WgbjEMUA9KDDVI/6hiHG7tlhPTEyNTM0OTg3MDEmYj1odXlhLXNjcmVlbnNob3RzLXJldmlldy0xMjUzNDk4NzAxJms9QUtJRFFpcTNSbEJtV0p6ZUxKTVZrMklWdVEybm1pY2RkRWdEJmU9MTgwOTA0NTQ3MSZ0PTE3OTM0OTM0NzEmcj0xMjM0NTY3OCZmPS9odXlhbGl2ZS8xMjM5NTQzODY0OTk4LTEyMzk1NDM4NjQ5OTgtMTExMzgwNjg4OTU0OTgyNDAwMDAtMjQ3OTA4Nzg1MzQ1Mi0xMDA1Ny1BLTAtMS8yMDI2MTEwMTA4Mzc1MC5qcGc=" group-title="点播剧2",欢迎来到我的直播间
+https://huya.445569.xyz/live/30826138
+#EXTINF:-1 tvg-id="欢迎来到我的直播间" tvg-name="欢迎来到我的直播间" tvg-logo="http://live-cover.msstatic.com/huyalive/1099531752812-1099531752812-86436371450822656-2199063629080-10057-A-0-1/20261101083808.jpg" group-title="点播剧2",欢迎来到我的直播间
+https://huya.445569.xyz/live/21059624
 #EXTINF:-1 tvg-id="三叉戟" tvg-name="三叉戟" tvg-logo="http://live-cover.msstatic.com/huyalive/1446869405-1446869405-0-2893862266-10057-A-1764528580-1/20261101083817.jpg" group-title="点播剧2",三叉戟
 https://huya.445569.xyz/live/18527383
 #EXTINF:-1 tvg-id="彩虹剧社" tvg-name="彩虹剧社" tvg-logo="https://tx-live-cover.msstatic.com/huyalive/1199527079867-1199527079867-5287982130180128768-2399054283190-10057-A-0-1/20261101083758.jpg?sign=ON3+tN6nFnZaxeGETX11otWGiiphPTEyNTM0OTg3MDEmYj1odXlhLXNjcmVlbnNob3RzLXJldmlldy0xMjUzNDk4NzAxJms9QUtJRFFpcTNSbEJtV0p6ZUxKTVZrMklWdVEybm1pY2RkRWdEJmU9MTgwOTA0NTQ3OCZ0PTE3OTM0OTM0Nzgmcj0xMjM0NTY3OCZmPS9odXlhbGl2ZS8xMTk5NTI3MDc5ODY3LTExOTk1MjcwNzk4NjctNTI4Nzk4MjEzMDE4MDEyODc2OC0yMzk5MDU0MjgzMTkwLTEwMDU3LUEtMC0xLzIwMjYxMTAxMDgzNzU4LmpwZw==" group-title="点播剧2",彩虹剧社
@@ -1450,8 +1451,12 @@ https://huya.445569.xyz/live/30569079
 https://huya.445569.xyz/live/31312799
 #EXTINF:-1 tvg-id="澳门那种电影" tvg-name="澳门那种电影" tvg-logo="http://live-cover.msstatic.com/huyalive/1199665925808-1199665925808-0-2399331975072-10057-A-1782381945-1/20261101083740.jpg" group-title="点播剧2",澳门那种电影
 https://huya.445569.xyz/live/31307674
+#EXTINF:-1 tvg-id="澳门那种电影" tvg-name="澳门那种电影" tvg-logo="http://live-cover.msstatic.com/huyalive/1199665356301-1199665356301-0-2399330836058-10057-A-1782128852-1/20261101083710.jpg" group-title="点播剧2",澳门那种电影
+https://huya.445569.xyz/live/31295293
 #EXTINF:-1 tvg-id="古灵精探" tvg-name="古灵精探" tvg-logo="https://tx-live-cover.msstatic.com/huyalive/1199660763772-1199660763772-0-2399321651000-10057-A-1768534407-1/20261101083741.jpg?sign=QUCEKiLIVQSDpYHWrpRkQdzyukdhPTEyNTM0OTg3MDEmYj1odXlhLXNjcmVlbnNob3RzLXJldmlldy0xMjUzNDk4NzAxJms9QUtJRFFpcTNSbEJtV0p6ZUxKTVZrMklWdVEybm1pY2RkRWdEJmU9MTgwOTA0NTQ2MSZ0PTE3OTM0OTM0NjEmcj0xMjM0NTY3OCZmPS9odXlhbGl2ZS8xMTk5NjYwNzYzNzcyLTExOTk2NjA3NjM3NzItMC0yMzk5MzIxNjUxMDAwLTEwMDU3LUEtMTc2ODUzNDQwNy0xLzIwMjYxMTAxMDgzNzQxLmpwZw==" group-title="点播剧2",古灵精探
 https://huya.445569.xyz/live/31091289
+#EXTINF:-1 tvg-id="古灵精探" tvg-name="古灵精探" tvg-logo="http://live-cover.msstatic.com/huyalive/1199661435180-1199661435180-0-2399322993816-10057-A-1770028230-1/20261101083704.jpg" group-title="点播剧2",古灵精探
+https://huya.445569.xyz/live/31126589
 #EXTINF:-1 tvg-id="小雪影视" tvg-name="小雪影视" tvg-logo="https://tx-live-cover.msstatic.com/huyalive/1199668950944-1199668950944-5897313766143426560-2399338025344-10057-A-0-1/20261101083815.jpg?sign=KBEVYQZGjOFDNoCcr+gJhqP4y1thPTEyNTM0OTg3MDEmYj1odXlhLXNjcmVlbnNob3RzLXJldmlldy0xMjUzNDk4NzAxJms9QUtJRFFpcTNSbEJtV0p6ZUxKTVZrMklWdVEybm1pY2RkRWdEJmU9MTgwOTA0NTQ5NSZ0PTE3OTM0OTM0OTUmcj0xMjM0NTY3OCZmPS9odXlhbGl2ZS8xMTk5NjY4OTUwOTQ0LTExOTk2Njg5NTA5NDQtNTg5NzMxMzc2NjE0MzQyNjU2MC0yMzk5MzM4MDI1MzQ0LTEwMDU3LUEtMC0xLzIwMjYxMTAxMDgzODE1LmpwZw==" group-title="点播剧2",小雪影视
 https://huya.445569.xyz/live/31416048
 #EXTINF:-1 tvg-id="洪金宝元彪成龙合作电影" tvg-name="洪金宝元彪成龙合作电影" tvg-logo="https://tx-live-cover.msstatic.com/huyalive/1199666027824-1199666027824-0-2399332179104-10057-A-1783604653-1/20261101083739.jpg?sign=B9ruTlyPjyz/WWQuwWI1gcUDM+ZhPTEyNTM0OTg3MDEmYj1odXlhLXNjcmVlbnNob3RzLXJldmlldy0xMjUzNDk4NzAxJms9QUtJRFFpcTNSbEJtV0p6ZUxKTVZrMklWdVEybm1pY2RkRWdEJmU9MTgwOTA0NTQ1OSZ0PTE3OTM0OTM0NTkmcj0xMjM0NTY3OCZmPS9odXlhbGl2ZS8xMTk5NjY2MDI3ODI0LTExOTk2NjYwMjc4MjQtMC0yMzk5MzMyMTc5MTA0LTEwMDU3LUEtMTc4MzYwNDY1My0xLzIwMjYxMTAxMDgzNzM5LmpwZw==" group-title="点播剧2",洪金宝元彪成龙合作电影
@@ -1460,16 +1465,12 @@ https://huya.445569.xyz/live/31312768
 https://huya.445569.xyz/live/31292911
 #EXTINF:-1 tvg-id="金马影帝佳作" tvg-name="金马影帝佳作" tvg-logo="https://tx-live-cover.msstatic.com/huyalive/1199542845267-1199542845267-0-2399085813990-10057-A-1764558151-1/20261101083721.jpg?sign=tvnoTbKUb4f7M4DBkag549Av1+phPTEyNTM0OTg3MDEmYj1odXlhLXNjcmVlbnNob3RzLXJldmlldy0xMjUzNDk4NzAxJms9QUtJRFFpcTNSbEJtV0p6ZUxKTVZrMklWdVEybm1pY2RkRWdEJmU9MTgwOTA0NTQ0MSZ0PTE3OTM0OTM0NDEmcj0xMjM0NTY3OCZmPS9odXlhbGl2ZS8xMTk5NTQyODQ1MjY3LTExOTk1NDI4NDUyNjctMC0yMzk5MDg1ODEzOTkwLTEwMDU3LUEtMTc2NDU1ODE1MS0xLzIwMjYxMTAxMDgzNzIxLmpwZw==" group-title="点播剧2",金马影帝佳作
 https://huya.445569.xyz/live/24607121
-#EXTINF:-1 tvg-id="澳门那种电影" tvg-name="澳门那种电影" tvg-logo="http://live-cover.msstatic.com/huyalive/1199665356301-1199665356301-0-2399330836058-10057-A-1782128852-1/20261101083710.jpg" group-title="点播剧2",澳门那种电影
-https://huya.445569.xyz/live/31295293
 #EXTINF:-1 tvg-id="来找座山雕靠窑了" tvg-name="来找座山雕靠窑了" tvg-logo="http://live-cover.msstatic.com/huyalive/1199612052282-1199612052282-0-2399224228020-10057-A-1783844275-1/20261101083711.jpg" group-title="点播剧2",来找座山雕靠窑了
 https://huya.445569.xyz/live/31305388
 #EXTINF:-1 tvg-id="三叉戟大背头大棍子大茶几" tvg-name="三叉戟大背头大棍子大茶几" tvg-logo="http://live-cover.msstatic.com/huyalive/1199657987225-1199657987225-0-2399316097906-10057-A-1764177508-1/20261101083719.jpg" group-title="点播剧2",三叉戟大背头大棍子大茶几
 https://huya.445569.xyz/live/30951757
 #EXTINF:-1 tvg-id="旧社会西装黑社会" tvg-name="旧社会西装黑社会" tvg-logo="http://live-cover.msstatic.com/huyalive/1199658752038-1199658752038-0-2399317627532-10057-A-1764345229-1/20261101083702.jpg" group-title="点播剧2",旧社会西装黑社会
 https://huya.445569.xyz/live/30995188
-#EXTINF:-1 tvg-id="古灵精探" tvg-name="古灵精探" tvg-logo="http://live-cover.msstatic.com/huyalive/1199661435180-1199661435180-0-2399322993816-10057-A-1770028230-1/20261101083704.jpg" group-title="点播剧2",古灵精探
-https://huya.445569.xyz/live/31126589
 #EXTINF:-1 tvg-id="成龙 经典系列 走进回忆" tvg-name="成龙 经典系列 走进回忆" tvg-logo="http://live-cover.msstatic.com/huyalive/1199662956868-1199662956868-7633998905530192824-2399326037192-10057-A-1777429058-1/20261101083704.jpg" group-title="点播剧2",成龙 经典系列 走进回忆
 https://huya.445569.xyz/live/31194377
 #EXTINF:-1 tvg-id="无聊 看看喜剧" tvg-name="无聊 看看喜剧" tvg-logo="https://tx-live-cover.msstatic.com/huyalive/1199662962429-1199662962429-0-2399326048314-10057-A-1773986585-1/20261101083720.jpg?sign=cR8h17SKS52f2OwkYq4mnMzPjJlhPTEyNTM0OTg3MDEmYj1odXlhLXNjcmVlbnNob3RzLXJldmlldy0xMjUzNDk4NzAxJms9QUtJRFFpcTNSbEJtV0p6ZUxKTVZrMklWdVEybm1pY2RkRWdEJmU9MTgwOTA0NTQ0MCZ0PTE3OTM0OTM0NDAmcj0xMjM0NTY3OCZmPS9odXlhbGl2ZS8xMTk5NjYyOTYyNDI5LTExOTk2NjI5NjI0MjktMC0yMzk5MzI2MDQ4MzE0LTEwMDU3LUEtMTc3Mzk4NjU4NS0xLzIwMjYxMTAxMDgzNzIwLmpwZw==" group-title="点播剧2",无聊 看看喜剧
@@ -1540,6 +1541,34 @@ https://huya.445569.xyz/live/31125346
 https://huya.445569.xyz/live/26298751
 #EXTINF:-1 tvg-id="我是一颗小" tvg-name="我是一颗小" tvg-logo="http://live-cover.msstatic.com/huyalive/146501201-146501201-629217867119722496-293125858-10057-A-0-1/20261101083722.jpg" group-title="点播剧2",我是一颗小
 https://huya.445569.xyz/live/10279885
+#EXTINF:-1 tvg-id="我是一颗小" tvg-name="我是一颗小" tvg-logo="http://v-huya-img2.msstatic.com/screenshot/2313/850246189/99.jpg" group-title="点播剧2",我是一颗小
+https://huya.445569.xyz/live/16028551
+#EXTINF:-1 tvg-id="我是一颗小" tvg-name="我是一颗小" tvg-logo="https://v-huya-img2.msstatic.com/screenshot/2621/1109767082/4.jpg" group-title="点播剧2",我是一颗小
+https://huya.445569.xyz/live/19863777
+#EXTINF:-1 tvg-id="我是一颗小" tvg-name="我是一颗小" tvg-logo="https://v-huya-img2.msstatic.com/screenshot/2544/1761832661826/99.jpg" group-title="点播剧2",我是一颗小
+https://huya.445569.xyz/live/30296971
+#EXTINF:-1 tvg-id="我是一颗小" tvg-name="我是一颗小" tvg-logo="http://v-huya-img2.msstatic.com/screenshot/2304/825165779/99.jpg" group-title="点播剧2",我是一颗小
+https://huya.445569.xyz/live/15152155
+#EXTINF:-1 tvg-id="我是一颗小" tvg-name="我是一颗小" tvg-logo="http://live-cover.msstatic.com/huyalive/1199577085634-1199577085634-5502755264056524800-2399154294724-10057-A-0-1/20261101083724.jpg" group-title="点播剧2",我是一颗小
+https://huya.445569.xyz/live/24720260
+#EXTINF:-1 tvg-id="我是一颗小" tvg-name="我是一颗小" tvg-logo="https://tx-live-cover.msstatic.com/huyalive/1199512045291-1199512045291-5223409117950902272-2399024214038-10057-A-0-1/20261101083736.jpg?sign=Ox463BLMTMf5tOv4Tb2dkwcOJ/FhPTEyNTM0OTg3MDEmYj1odXlhLXNjcmVlbnNob3RzLXJldmlldy0xMjUzNDk4NzAxJms9QUtJRFFpcTNSbEJtV0p6ZUxKTVZrMklWdVEybm1pY2RkRWdEJmU9MTgwOTA0NTQ1NiZ0PTE3OTM0OTM0NTYmcj0xMjM0NTY3OCZmPS9odXlhbGl2ZS8xMTk5NTEyMDQ1MjkxLTExOTk1MTIwNDUyOTEtNTIyMzQwOTExNzk1MDkwMjI3Mi0yMzk5MDI0MjE0MDM4LTEwMDU3LUEtMC0xLzIwMjYxMTAxMDgzNzM2LmpwZw==" group-title="点播剧2",我是一颗小
+https://huya.445569.xyz/live/16913382
+#EXTINF:-1 tvg-id="我是一颗小" tvg-name="我是一颗小" tvg-logo="http://v-huya-img2.msstatic.com/screenshot/2219/711888763/99.jpg" group-title="点播剧2",我是一颗小
+https://huya.445569.xyz/live/16755322
+#EXTINF:-1 tvg-id="我是一颗小" tvg-name="我是一颗小" tvg-logo="https://v-huya-img2.msstatic.com/process/1713459331071/939224542/99.jpg" group-title="点播剧2",我是一颗小
+https://huya.445569.xyz/live/15321830
+#EXTINF:-1 tvg-id="我是一颗小" tvg-name="我是一颗小" tvg-logo="https://v-huya-img2.msstatic.com/screenshot/2209/670384929/100.jpg" group-title="点播剧2",我是一颗小
+https://huya.445569.xyz/live/19757963
+#EXTINF:-1 tvg-id="我是一颗小" tvg-name="我是一颗小" tvg-logo="http://live-cover.msstatic.com/huyalive/1199646293139-1199646293139-5799999234669281280-2399292709734-10057-A-0-1/20260702151915.jpg" group-title="点播剧2",我是一颗小
+https://huya.445569.xyz/live/30373013
+#EXTINF:-1 tvg-id="我是一颗小" tvg-name="我是一颗小" tvg-logo="https://v-huya-img2.msstatic.com/screenshot/2148/615382981/100.jpg" group-title="点播剧2",我是一颗小
+https://huya.445569.xyz/live/25818873
+#EXTINF:-1 tvg-id="我是一颗小" tvg-name="我是一颗小" tvg-logo="https://tx-live-cover.msstatic.com/huyalive/1199532114667-1199532114667-5309606431522029568-2399064352790-10057-A-0-1/20261101083747.jpg?sign=4y3njUfQMfn2IT8WT2IeF/SN+jZhPTEyNTM0OTg3MDEmYj1odXlhLXNjcmVlbnNob3RzLXJldmlldy0xMjUzNDk4NzAxJms9QUtJRFFpcTNSbEJtV0p6ZUxKTVZrMklWdVEybm1pY2RkRWdEJmU9MTgwOTA0NTQ2NyZ0PTE3OTM0OTM0Njcmcj0xMjM0NTY3OCZmPS9odXlhbGl2ZS8xMTk5NTMyMTE0NjY3LTExOTk1MzIxMTQ2NjctNTMwOTYwNjQzMTUyMjAyOTU2OC0yMzk5MDY0MzUyNzkwLTEwMDU3LUEtMC0xLzIwMjYxMTAxMDgzNzQ3LmpwZw==" group-title="点播剧2",我是一颗小
+https://huya.445569.xyz/live/27653235
+#EXTINF:-1 tvg-id="我是一颗小" tvg-name="我是一颗小" tvg-logo="https://v-huya-img2.msstatic.com/screenshot/2203/643603837/100.jpg" group-title="点播剧2",我是一颗小
+https://huya.445569.xyz/live/26510802
+#EXTINF:-1 tvg-id="我是一颗小" tvg-name="我是一颗小" tvg-logo="http://live-cover.msstatic.com/huyalive/1199647039323-1199647039323-5803204070546079744-2399294202102-10057-A-0-1/20261101083757.jpg" group-title="点播剧2",我是一颗小
+https://huya.445569.xyz/live/30298490
 #EXTINF:-1 tvg-id="道州万物并" tvg-name="道州万物并" tvg-logo="https://tx-live-cover.msstatic.com/huyalive/1199661134748-1199661134748-5863743459944300544-2399322392952-10057-A-0-1/20261101083724.jpg?sign=ErHjZoFDgjzOkt+Uupwzo64WJvRhPTEyNTM0OTg3MDEmYj1odXlhLXNjcmVlbnNob3RzLXJldmlldy0xMjUzNDk4NzAxJms9QUtJRFFpcTNSbEJtV0p6ZUxKTVZrMklWdVEybm1pY2RkRWdEJmU9MTgwOTA0NTQ0NCZ0PTE3OTM0OTM0NDQmcj0xMjM0NTY3OCZmPS9odXlhbGl2ZS8xMTk5NjYxMTM0NzQ4LTExOTk2NjExMzQ3NDgtNTg2Mzc0MzQ1OTk0NDMwMDU0NC0yMzk5MzIyMzkyOTUyLTEwMDU3LUEtMC0xLzIwMjYxMTAxMDgzNzI0LmpwZw==" group-title="点播剧2",道州万物并
 https://huya.445569.xyz/live/31125245
 #EXTINF:-1 tvg-id="云雨巫山断肠" tvg-name="云雨巫山断肠" tvg-logo="http://live-cover.msstatic.com/huyalive/1199661148887-1199661148887-5863804186486898688-2399322421230-10057-A-0-1/20261101083739.jpg" group-title="点播剧2",云雨巫山断肠
@@ -1548,8 +1577,6 @@ https://huya.445569.xyz/live/31142461
 https://huya.445569.xyz/live/31049729
 #EXTINF:-1 tvg-id="小萝莉爱爱" tvg-name="小萝莉爱爱" tvg-logo="http://live-cover.msstatic.com/huyalive/1199661507045-1199661507045-5865342463383699456-2399323137546-10057-A-0-1/20261101083734.jpg" group-title="点播剧2",小萝莉爱爱
 https://huya.445569.xyz/live/31192789
-#EXTINF:-1 tvg-id="我是一颗小" tvg-name="我是一颗小" tvg-logo="http://v-huya-img2.msstatic.com/screenshot/2313/850246189/99.jpg" group-title="点播剧2",我是一颗小
-https://huya.445569.xyz/live/16028551
 #EXTINF:-1 tvg-id="豆瓣经典不断" tvg-name="豆瓣经典不断" tvg-logo="http://live-cover.msstatic.com/huyalive/1199651205575-1199651205575-0-2399302534606-10057-A-1763821433-1/20261101083818.jpg" group-title="点播剧2",豆瓣经典不断
 https://huya.445569.xyz/live/30535002
 #EXTINF:-1 tvg-id="雪豹坚强岁月 新雪豹" tvg-name="雪豹坚强岁月 新雪豹" tvg-logo="http://live-cover.msstatic.com/huyalive/1199638692722-1199638692722-5767355692218318848-2399277508900-10057-A-0-1/20261101083827.jpg" group-title="点播剧2",雪豹坚强岁月 新雪豹
@@ -1562,20 +1589,14 @@ https://huya.445569.xyz/live/31223843
 https://huya.445569.xyz/live/17269326
 #EXTINF:-1 tvg-id="露茜、" tvg-name="露茜、" tvg-logo="https://hs-live-cover.msstatic.com/huyalive/1199621835392-1199621835392-5694954011170439168-2399243794240-10057-A-0-1/20261101083813_5034.jpg?auth_key=1793493493-1-0-44e847fb65af0f77d316d087de24f9e9" group-title="点播剧2",露茜、
 https://huya.445569.xyz/live/28274529
-#EXTINF:-1 tvg-id="我是一颗小" tvg-name="我是一颗小" tvg-logo="https://v-huya-img2.msstatic.com/screenshot/2621/1109767082/4.jpg" group-title="点播剧2",我是一颗小
-https://huya.445569.xyz/live/19863777
 #EXTINF:-1 tvg-id="老李的意大利炮" tvg-name="老李的意大利炮" tvg-logo="http://live-cover.msstatic.com/huyalive/1199614883378-1199614883378-5665095338399105024-2399229890212-10057-A-0-1/20261101083756.jpg" group-title="点播剧2",老李的意大利炮
 https://huya.445569.xyz/live/28078466
-#EXTINF:-1 tvg-id="我是一颗小" tvg-name="我是一颗小" tvg-logo="https://v-huya-img2.msstatic.com/screenshot/2544/1761832661826/99.jpg" group-title="点播剧2",我是一颗小
-https://huya.445569.xyz/live/30296971
 #EXTINF:-1 tvg-id="风浪越大鱼越贵" tvg-name="风浪越大鱼越贵" tvg-logo="http://live-cover.msstatic.com/huyalive/1199646778517-1199646778517-5802083917305479168-2399293680490-10057-A-0-1/20261101083757.jpg" group-title="点播剧2",风浪越大鱼越贵
 https://huya.445569.xyz/live/30277823
 #EXTINF:-1 tvg-id="大盛魁 草原商贸帝国的兴衰史" tvg-name="大盛魁 草原商贸帝国的兴衰史" tvg-logo="http://live-cover.msstatic.com/huyalive/1199646966896-1199646966896-5802892998949732352-2399294057248-10057-A-0-1/20261101083828.jpg" group-title="点播剧2",大盛魁 草原商贸帝国的兴衰史
 https://huya.445569.xyz/live/30292086
 #EXTINF:-1 tvg-id="老农民 冯远征陈宝国老戏骨无敌演技" tvg-name="老农民 冯远征陈宝国老戏骨无敌演技" tvg-logo="http://live-cover.msstatic.com/huyalive/1199638698076-1199638698076-5767378687473221632-2399277519608-10057-A-0-1/20261101083820.jpg" group-title="点播剧2",老农民 冯远征陈宝国老戏骨无敌演技
 https://huya.445569.xyz/live/29580971
-#EXTINF:-1 tvg-id="我是一颗小" tvg-name="我是一颗小" tvg-logo="http://v-huya-img2.msstatic.com/screenshot/2304/825165779/99.jpg" group-title="点播剧2",我是一颗小
-https://huya.445569.xyz/live/15152155
 #EXTINF:-1 tvg-id="雪见" tvg-name="雪见" tvg-logo="https://anchorpost.msstatic.com/cdnimage/anchorpost/1055/fe/686e7e61aa8ad31127277263194c1a_6861_1773731730.jpg?spformat=png,webp" group-title="点播剧2",雪见
 https://huya.445569.xyz/live/30765312
 #EXTINF:-1 tvg-id="圣母传 懿症大爆发" tvg-name="圣母传 懿症大爆发" tvg-logo="http://live-cover.msstatic.com/huyalive/1239543153962-1239543153962-11135015019131961344-2479086431380-10057-A-0-1/20261101083812.jpg" group-title="点播剧2",圣母传 懿症大爆发
@@ -1584,14 +1605,8 @@ https://huya.445569.xyz/live/30080227
 https://huya.445569.xyz/live/30311525
 #EXTINF:-1 tvg-id="斌哥 带你来看《龙珠超》" tvg-name="斌哥 带你来看《龙珠超》" tvg-logo="https://tx-live-cover.msstatic.com/huyalive/1199516152253-1199516152253-5241048385426817024-2399032427962-10057-A-0-1/20261101083744.jpg?sign=yKo8APJ3jsdSNMya0XoJpa8h80lhPTEyNTM0OTg3MDEmYj1odXlhLXNjcmVlbnNob3RzLXJldmlldy0xMjUzNDk4NzAxJms9QUtJRFFpcTNSbEJtV0p6ZUxKTVZrMklWdVEybm1pY2RkRWdEJmU9MTgwOTA0NTQ2NCZ0PTE3OTM0OTM0NjQmcj0xMjM0NTY3OCZmPS9odXlhbGl2ZS8xMTk5NTE2MTUyMjUzLTExOTk1MTYxNTIyNTMtNTI0MTA0ODM4NTQyNjgxNzAyNC0yMzk5MDMyNDI3OTYyLTEwMDU3LUEtMC0xLzIwMjYxMTAxMDgzNzQ0LmpwZw==" group-title="点播剧2",斌哥 带你来看《龙珠超》
 https://huya.445569.xyz/live/18632116
-#EXTINF:-1 tvg-id="欢迎来到我的直播间" tvg-name="欢迎来到我的直播间" tvg-logo="https://v-huya-img2.msstatic.com/screenshot/1710211390870/968616414/99.jpg" group-title="点播剧2",欢迎来到我的直播间
-https://huya.445569.xyz/live/28806915
-#EXTINF:-1 tvg-id="我是一颗小" tvg-name="我是一颗小" tvg-logo="http://live-cover.msstatic.com/huyalive/1199577085634-1199577085634-5502755264056524800-2399154294724-10057-A-0-1/20261101083724.jpg" group-title="点播剧2",我是一颗小
-https://huya.445569.xyz/live/24720260
 #EXTINF:-1 tvg-id="炊烟大壮" tvg-name="炊烟大壮" tvg-logo="http://live-cover.msstatic.com/huyalive/1199576846104-1199576846104-5501726490540113920-2399153815664-10057-A-0-1/20261101083755.jpg" group-title="点播剧2",炊烟大壮
 https://huya.445569.xyz/live/24782284
-#EXTINF:-1 tvg-id="我是一颗小" tvg-name="我是一颗小" tvg-logo="https://tx-live-cover.msstatic.com/huyalive/1199512045291-1199512045291-5223409117950902272-2399024214038-10057-A-0-1/20261101083736.jpg?sign=Ox463BLMTMf5tOv4Tb2dkwcOJ/FhPTEyNTM0OTg3MDEmYj1odXlhLXNjcmVlbnNob3RzLXJldmlldy0xMjUzNDk4NzAxJms9QUtJRFFpcTNSbEJtV0p6ZUxKTVZrMklWdVEybm1pY2RkRWdEJmU9MTgwOTA0NTQ1NiZ0PTE3OTM0OTM0NTYmcj0xMjM0NTY3OCZmPS9odXlhbGl2ZS8xMTk5NTEyMDQ1MjkxLTExOTk1MTIwNDUyOTEtNTIyMzQwOTExNzk1MDkwMjI3Mi0yMzk5MDI0MjE0MDM4LTEwMDU3LUEtMC0xLzIwMjYxMTAxMDgzNzM2LmpwZw==" group-title="点播剧2",我是一颗小
-https://huya.445569.xyz/live/16913382
 #EXTINF:-1 tvg-id="小丑讲电影" tvg-name="小丑讲电影" tvg-logo="https://v-huya-img2.msstatic.com/screenshot/2448/1029999354/4.jpg" group-title="点播剧2",小丑讲电影
 https://huya.445569.xyz/live/16857432
 #EXTINF:-1 tvg-id="《僵尸道长》《僵约》等经典港剧" tvg-name="《僵尸道长》《僵约》等经典港剧" tvg-logo="https://v-huya-img2.msstatic.com/screenshot/2032/375488025/4.jpg" group-title="点播剧2",《僵尸道长》《僵约》等经典港剧
@@ -1602,14 +1617,8 @@ https://huya.445569.xyz/live/30080197
 https://huya.445569.xyz/live/30311497
 #EXTINF:-1 tvg-id="国产武侠剧巅峰之作，至今无人敢翻拍，一口气看完所有剧情" tvg-name="国产武侠剧巅峰之作，至今无人敢翻拍，一口气看完所有剧情" tvg-logo="https://tx-live-cover.msstatic.com/huyalive/1279520922847-1279520922847-16817528283867381760-2559041969150-10057-A-0-1/20261101083739.jpg?sign=Gb4mSA1AR110rTVlif/nhNep/nVhPTEyNTM0OTg3MDEmYj1odXlhLXNjcmVlbnNob3RzLXJldmlldy0xMjUzNDk4NzAxJms9QUtJRFFpcTNSbEJtV0p6ZUxKTVZrMklWdVEybm1pY2RkRWdEJmU9MTgwOTA0NTQ1OSZ0PTE3OTM0OTM0NTkmcj0xMjM0NTY3OCZmPS9odXlhbGl2ZS8xMjc5NTIwOTIyODQ3LTEyNzk1MjA5MjI4NDctMTY4MTc1MjgyODM4NjczODE3NjAtMjU1OTA0MTk2OTE1MC0xMDA1Ny1BLTAtMS8yMDI2MTEwMTA4MzczOS5qcGc=" group-title="点播剧2",国产武侠剧巅峰之作，至今无人敢翻拍，一口气看完所有剧情
 https://huya.445569.xyz/live/21674665
-#EXTINF:-1 tvg-id="欢迎来到我的直播间" tvg-name="欢迎来到我的直播间" tvg-logo="http://v-huya-img2.msstatic.com/screenshot/2404/956332662/99.jpg" group-title="点播剧2",欢迎来到我的直播间
-https://huya.445569.xyz/live/28556708
 #EXTINF:-1 tvg-id="HeungsamsFamily" tvg-name="HeungsamsFamily" tvg-logo="http://live-cover.msstatic.com/huyalive/1199637632429-1199637632429-5762801768459141120-2399275388314-10057-A-0-1/20261101083758.jpg" group-title="点播剧2",HeungsamsFamily
 https://huya.445569.xyz/live/29487319
-#EXTINF:-1 tvg-id="我是一颗小" tvg-name="我是一颗小" tvg-logo="http://v-huya-img2.msstatic.com/screenshot/2219/711888763/99.jpg" group-title="点播剧2",我是一颗小
-https://huya.445569.xyz/live/16755322
-#EXTINF:-1 tvg-id="我是一颗小" tvg-name="我是一颗小" tvg-logo="https://v-huya-img2.msstatic.com/process/1713459331071/939224542/99.jpg" group-title="点播剧2",我是一颗小
-https://huya.445569.xyz/live/15321830
 #EXTINF:-1 tvg-id="恐怖电影潜伏系列第四部：锁命亡魂" tvg-name="恐怖电影潜伏系列第四部：锁命亡魂" tvg-logo="https://v-huya-img2.msstatic.com/screenshot/2045/408236533/99.jpg" group-title="点播剧2",恐怖电影潜伏系列第四部：锁命亡魂
 https://huya.445569.xyz/live/23419131
 #EXTINF:-1 tvg-id="豪门绑架案改编电影《金钱世界》" tvg-name="豪门绑架案改编电影《金钱世界》" tvg-logo="https://v-huya-img2.msstatic.com/screenshot/1848/93829281/99.jpg" group-title="点播剧2",豪门绑架案改编电影《金钱世界》
@@ -1636,20 +1645,12 @@ https://huya.445569.xyz/live/30307366
 https://huya.445569.xyz/live/31403084
 #EXTINF:-1 tvg-id="HagnaChannel" tvg-name="HagnaChannel" tvg-logo="http://live-cover.msstatic.com/huyalive/1199576814719-1199576814719-5501591692991528960-2399153752894-10057-A-0-1/20261101083814.jpg" group-title="点播剧2",HagnaChannel
 https://huya.445569.xyz/live/24692390
-#EXTINF:-1 tvg-id="我是一颗小" tvg-name="我是一颗小" tvg-logo="https://v-huya-img2.msstatic.com/screenshot/2209/670384929/100.jpg" group-title="点播剧2",我是一颗小
-https://huya.445569.xyz/live/19757963
 #EXTINF:-1 tvg-id="小LhTaxj0qkX" tvg-name="小LhTaxj0qkX" tvg-logo="http://live-cover.msstatic.com/huyalive/1199668278549-1199668278549-5894425851608432640-2399336680554-10057-A-0-1/20261101083755.jpg" group-title="点播剧2",小LhTaxj0qkX
 https://huya.445569.xyz/live/31409194
-#EXTINF:-1 tvg-id="欢迎来到我的直播间" tvg-name="欢迎来到我的直播间" tvg-logo="http://v-huya-img2.msstatic.com/screenshot/2404/956929222/99.jpg" group-title="点播剧2",欢迎来到我的直播间
-https://huya.445569.xyz/live/28806637
 #EXTINF:-1 tvg-id="集香港电影经典之大作" tvg-name="集香港电影经典之大作" tvg-logo="https://anchorpost.msstatic.com/cdnimage/anchorpost/1057/51/02fa9340340d1d1d02adbe57c005c1_6861_1770260055.jpg?spformat=png,webp" group-title="点播剧2",集香港电影经典之大作
 https://huya.445569.xyz/live/30631706
-#EXTINF:-1 tvg-id="我是一颗小" tvg-name="我是一颗小" tvg-logo="http://live-cover.msstatic.com/huyalive/1199646293139-1199646293139-5799999234669281280-2399292709734-10057-A-0-1/20260702151915.jpg" group-title="点播剧2",我是一颗小
-https://huya.445569.xyz/live/30373013
 #EXTINF:-1 tvg-id="白鹿原 白鹿原上有白鹿，世间再无陈忠实" tvg-name="白鹿原 白鹿原上有白鹿，世间再无陈忠实" tvg-logo="https://tx-live-cover.msstatic.com/huyalive/1199637826638-1199637826638-5763635889762729984-2399275776732-10057-A-0-1/20261101083813.jpg?sign=c6MtPeWaNAfwgyn07hIOo/mYcARhPTEyNTM0OTg3MDEmYj1odXlhLXNjcmVlbnNob3RzLXJldmlldy0xMjUzNDk4NzAxJms9QUtJRFFpcTNSbEJtV0p6ZUxKTVZrMklWdVEybm1pY2RkRWdEJmU9MTgwOTA0NTQ5MyZ0PTE3OTM0OTM0OTMmcj0xMjM0NTY3OCZmPS9odXlhbGl2ZS8xMTk5NjM3ODI2NjM4LTExOTk2Mzc4MjY2MzgtNTc2MzYzNTg4OTc2MjcyOTk4NC0yMzk5Mjc1Nzc2NzMyLTEwMDU3LUEtMC0xLzIwMjYxMTAxMDgzODEzLmpwZw==" group-title="点播剧2",白鹿原 白鹿原上有白鹿，世间再无陈忠实
 https://huya.445569.xyz/live/30311504
-#EXTINF:-1 tvg-id="我是一颗小" tvg-name="我是一颗小" tvg-logo="https://v-huya-img2.msstatic.com/screenshot/2148/615382981/100.jpg" group-title="点播剧2",我是一颗小
-https://huya.445569.xyz/live/25818873
 #EXTINF:-1 tvg-id="我要意大利炮" tvg-name="我要意大利炮" tvg-logo="http://live-cover.msstatic.com/huyalive/1199646893012-1199646893012-5802575669586034688-2399293909480-10057-A-0-1/20261101083757.jpg" group-title="点播剧2",我要意大利炮
 https://huya.445569.xyz/live/30287258
 #EXTINF:-1 tvg-id="《绝命毒师》第一季第六集，老白化身光头强，一块晶体炸屠库老巢" tvg-name="《绝命毒师》第一季第六集，老白化身光头强，一块晶体炸屠库老巢" tvg-logo="http://v-huya-img2.msstatic.com/screenshot/2244/794176651/99.jpg" group-title="点播剧2",《绝命毒师》第一季第六集，老白化身光头强，一块晶体炸屠库老巢
@@ -1658,20 +1659,12 @@ https://huya.445569.xyz/live/20488841
 https://huya.445569.xyz/live/30307351
 #EXTINF:-1 tvg-id="七七爱剧" tvg-name="七七爱剧" tvg-logo="http://live-cover.msstatic.com/huyalive/1199661294751-1199661294751-5864430667596562432-2399322712958-10057-A-0-1/20261101083809.jpg" group-title="点播剧2",七七爱剧
 https://huya.445569.xyz/live/31147360
-#EXTINF:-1 tvg-id="欢迎来到我的直播间" tvg-name="欢迎来到我的直播间" tvg-logo="https://v-huya-img2.msstatic.com/transfer/2415/976323200/104.jpg" group-title="点播剧2",欢迎来到我的直播间
-https://huya.445569.xyz/live/29420446
-#EXTINF:-1 tvg-id="欢迎来到我的直播间" tvg-name="欢迎来到我的直播间" tvg-logo="https://v-huya-img2.msstatic.com/process/1714655920534/980707346/99.jpg" group-title="点播剧2",欢迎来到我的直播间
-https://huya.445569.xyz/live/29868594
 #EXTINF:-1 tvg-id="老家门口唱大戏 比乡村爱情还好看" tvg-name="老家门口唱大戏 比乡村爱情还好看" tvg-logo="http://live-cover.msstatic.com/huyalive/1199649386407-1199649386407-5813284719567044608-2399298896270-10057-A-0-1/20261101083757.jpg" group-title="点播剧2",老家门口唱大戏 比乡村爱情还好看
 https://huya.445569.xyz/live/30439802
-#EXTINF:-1 tvg-id="我是一颗小" tvg-name="我是一颗小" tvg-logo="https://tx-live-cover.msstatic.com/huyalive/1199532114667-1199532114667-5309606431522029568-2399064352790-10057-A-0-1/20261101083747.jpg?sign=4y3njUfQMfn2IT8WT2IeF/SN+jZhPTEyNTM0OTg3MDEmYj1odXlhLXNjcmVlbnNob3RzLXJldmlldy0xMjUzNDk4NzAxJms9QUtJRFFpcTNSbEJtV0p6ZUxKTVZrMklWdVEybm1pY2RkRWdEJmU9MTgwOTA0NTQ2NyZ0PTE3OTM0OTM0Njcmcj0xMjM0NTY3OCZmPS9odXlhbGl2ZS8xMTk5NTMyMTE0NjY3LTExOTk1MzIxMTQ2NjctNTMwOTYwNjQzMTUyMjAyOTU2OC0yMzk5MDY0MzUyNzkwLTEwMDU3LUEtMC0xLzIwMjYxMTAxMDgzNzQ3LmpwZw==" group-title="点播剧2",我是一颗小
-https://huya.445569.xyz/live/27653235
 #EXTINF:-1 tvg-id="2020跨年晚会上唱的这几首歌曲，真是让人很是怀念" tvg-name="2020跨年晚会上唱的这几首歌曲，真是让人很是怀念" tvg-logo="http://live-cover.msstatic.com/huyalive/1199512344405-1199512344405-5224693802798678016-2399024812266-10057-A-0-1/20261101083714.jpg" group-title="点播剧2",2020跨年晚会上唱的这几首歌曲，真是让人很是怀念
 https://huya.445569.xyz/live/17091681
 #EXTINF:-1 tvg-id="开心边角料 乔杉修睿葛家葛事" tvg-name="开心边角料 乔杉修睿葛家葛事" tvg-logo="http://live-cover.msstatic.com/huyalive/1199602432326-1199602432326-5611618477258309632-2399204988108-10057-A-0-1/20261101083727.jpg" group-title="点播剧2",开心边角料 乔杉修睿葛家葛事
 https://huya.445569.xyz/live/30342855
-#EXTINF:-1 tvg-id="我是一颗小" tvg-name="我是一颗小" tvg-logo="https://v-huya-img2.msstatic.com/screenshot/2203/643603837/100.jpg" group-title="点播剧2",我是一颗小
-https://huya.445569.xyz/live/26510802
 #EXTINF:-1 tvg-id="芸芸看剧" tvg-name="芸芸看剧" tvg-logo="http://live-cover.msstatic.com/huyalive/1199655467394-1199655467394-5839402359859445760-2399311058244-10057-A-0-1/20261101083737.jpg" group-title="点播剧2",芸芸看剧
 https://huya.445569.xyz/live/30832594
 #EXTINF:-1 tvg-id="经典喜剧一览，重返当年欢乐" tvg-name="经典喜剧一览，重返当年欢乐" tvg-logo="https://anchorpost.msstatic.com/cdnimage/anchorpost/1081/94/5aa8562286a3e8de48e9fd359beeec_6861_1766718080.jpg?spformat=png,webp" group-title="点播剧2",经典喜剧一览，重返当年欢乐
@@ -1680,8 +1673,6 @@ https://huya.445569.xyz/live/30631713
 https://huya.445569.xyz/live/16424416
 #EXTINF:-1 tvg-id="弥林的女王" tvg-name="弥林的女王" tvg-logo="http://live-cover.msstatic.com/huyalive/1446420010-1446420010-6212326639229992960-4637074750-10057-A-0-1/20261101083755.jpg" group-title="点播剧2",弥林的女王
 https://huya.445569.xyz/live/17943364
-#EXTINF:-1 tvg-id="欢迎来到我的直播间" tvg-name="欢迎来到我的直播间" tvg-logo="http://live-cover.msstatic.com/huyalive/1199641579860-1199641579860-5779755855507357696-2399283283176-10057-A-0-1/20261101083757.jpg" group-title="点播剧2",欢迎来到我的直播间
-https://huya.445569.xyz/live/29831106
 #EXTINF:-1 tvg-id="Yes小哥的美食视频（珍惜粮食，拒绝浪费" tvg-name="Yes小哥的美食视频（珍惜粮食，拒绝浪费" tvg-logo="https://tx-live-cover.msstatic.com/huyalive/94525224-2656999522-11411726052477632512-3724460598-10057-A-0-1/20261101083815.jpg?sign=PaNNSWJzSyTW7R0VtiwBq856GMxhPTEyNTM0OTg3MDEmYj1odXlhLXNjcmVlbnNob3RzLXJldmlldy0xMjUzNDk4NzAxJms9QUtJRFFpcTNSbEJtV0p6ZUxKTVZrMklWdVEybm1pY2RkRWdEJmU9MTgwOTA0NTQ5NiZ0PTE3OTM0OTM0OTYmcj0xMjM0NTY3OCZmPS9odXlhbGl2ZS85NDUyNTIyNC0yNjU2OTk5NTIyLTExNDExNzI2MDUyNDc3NjMyNTEyLTM3MjQ0NjA1OTgtMTAwNTctQS0wLTEvMjAyNjExMDEwODM4MTUuanBn" group-title="点播剧2",Yes小哥的美食视频（珍惜粮食，拒绝浪费
 https://huya.445569.xyz/live/14363949
 #EXTINF:-1 tvg-id="雪女悠悠" tvg-name="雪女悠悠" tvg-logo="https://tx-live-cover.msstatic.com/huyalive/1199662054694-1199662054694-5867694597928386560-2399324232844-10057-A-0-1/20261101083808.jpg?sign=62N9MRELWM0hPpwuLayTt9Hw3T5hPTEyNTM0OTg3MDEmYj1odXlhLXNjcmVlbnNob3RzLXJldmlldy0xMjUzNDk4NzAxJms9QUtJRFFpcTNSbEJtV0p6ZUxKTVZrMklWdVEybm1pY2RkRWdEJmU9MTgwOTA0NTQ4OCZ0PTE3OTM0OTM0ODgmcj0xMjM0NTY3OCZmPS9odXlhbGl2ZS8xMTk5NjYyMDU0Njk0LTExOTk2NjIwNTQ2OTQtNTg2NzY5NDU5NzkyODM4NjU2MC0yMzk5MzI0MjMyODQ0LTEwMDU3LUEtMC0xLzIwMjYxMTAxMDgzODA4LmpwZw==" group-title="点播剧2",雪女悠悠
@@ -1700,7 +1691,5 @@ https://huya.445569.xyz/live/16615910
 https://huya.445569.xyz/live/31067746
 #EXTINF:-1 tvg-id="小燕子紫薇" tvg-name="小燕子紫薇" tvg-logo="https://tx-live-cover.msstatic.com/huyalive/1199661675386-1199661675386-5866065482473275392-2399323474228-10057-A-0-1/20261101083813.jpg?sign=+fzdQ+HYUvf3WuUWJcy5K2XW6IdhPTEyNTM0OTg3MDEmYj1odXlhLXNjcmVlbnNob3RzLXJldmlldy0xMjUzNDk4NzAxJms9QUtJRFFpcTNSbEJtV0p6ZUxKTVZrMklWdVEybm1pY2RkRWdEJmU9MTgwOTA0NTQ5MyZ0PTE3OTM0OTM0OTMmcj0xMjM0NTY3OCZmPS9odXlhbGl2ZS8xMTk5NjYxNjc1Mzg2LTExOTk2NjE2NzUzODYtNTg2NjA2NTQ4MjQ3MzI3NTM5Mi0yMzk5MzIzNDc0MjI4LTEwMDU3LUEtMC0xLzIwMjYxMTAxMDgzODEzLmpwZw==" group-title="点播剧2",小燕子紫薇
 https://huya.445569.xyz/live/31199435
-#EXTINF:-1 tvg-id="我是一颗小" tvg-name="我是一颗小" tvg-logo="http://live-cover.msstatic.com/huyalive/1199647039323-1199647039323-5803204070546079744-2399294202102-10057-A-0-1/20261101083757.jpg" group-title="点播剧2",我是一颗小
-https://huya.445569.xyz/live/30298490
 #EXTINF:-1 tvg-id="我的绝密生涯 潜伏关郁达" tvg-name="我的绝密生涯 潜伏关郁达" tvg-logo="https://tx-live-cover.msstatic.com/huyalive/1199645804280-1199645804280-5797899601251926016-2399291732016-10057-A-0-1/20261101083804.jpg?sign=OLsQ61nKWHgB944fFemIlvu3KvxhPTEyNTM0OTg3MDEmYj1odXlhLXNjcmVlbnNob3RzLXJldmlldy0xMjUzNDk4NzAxJms9QUtJRFFpcTNSbEJtV0p6ZUxKTVZrMklWdVEybm1pY2RkRWdEJmU9MTgwOTA0NTQ4NSZ0PTE3OTM0OTM0ODUmcj0xMjM0NTY3OCZmPS9odXlhbGl2ZS8xMTk5NjQ1ODA0MjgwLTExOTk2NDU4MDQyODAtNTc5Nzg5OTYwMTI1MTkyNjAxNi0yMzk5MjkxNzMyMDE2LTEwMDU3LUEtMC0xLzIwMjYxMTAxMDgzODA0LmpwZw==" group-title="点播剧2",我的绝密生涯 潜伏关郁达
 https://huya.445569.xyz/live/30312372
