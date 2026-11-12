@@ -1091,6 +1091,18 @@ https://live.catvod.com/iptv.php?id=lhyp01
 http://8.138.7.223/tv/cwjd.php
 #EXTINF:-1 tvg-id="重温经典" tvg-name="重温经典" tvg-logo="https://live.fanmingming.cn/tv/重温经典.png" group-title="经典影视",重温经典
 http://f.123.rr.kg/163189/cwjd
+#EXTINF:-1 tvg-id="战争电影" tvg-name="战争电影" tvg-logo="https://live.fanmingming.cn/tv/虎牙直播.png" group-title="经典影视",战争电影
+https://live.ottiptv.cc/huya/15321830
+https://live.metshop.top/huya/15321830
+#EXTINF:-1 tvg-id="诺兰电影" tvg-name="诺兰电影" tvg-logo="https://live.fanmingming.cn/tv/虎牙直播.png" group-title="经典影视",诺兰电影
+https://live.ottiptv.cc/huya/30080257
+https://live.metshop.top/huya/30080257
+#EXTINF:-1 tvg-id="国产电影" tvg-name="国产电影" tvg-logo="https://live.fanmingming.cn/tv/虎牙直播.png" group-title="经典影视",国产电影
+https://live.ottiptv.cc/huya/11352897
+https://live.metshop.top/huya/11352897
+#EXTINF:-1 tvg-id="冯导电影" tvg-name="冯导电影" tvg-logo="https://live.fanmingming.cn/tv/虎牙直播.png" group-title="经典影视",冯导电影
+https://live.ottiptv.cc/huya/30631756
+https://live.metshop.top/huya/30631756
 #EXTINF:-1 tvg-id="仙剑奇侠传" tvg-name="仙剑奇侠传" tvg-logo="https://live.fanmingming.cn/tv/仙剑奇侠传.png" group-title="经典剧场",仙剑奇侠传
 https://live.ottiptv.cc/yy/1382749903
 #EXTINF:-1 tvg-id="金庸武侠" tvg-name="金庸武侠" tvg-logo="https://live.fanmingming.cn/tv/金庸武侠.png" group-title="经典剧场",金庸武侠
@@ -1117,6 +1129,9 @@ http://jsmov2.a.yximgs.com/bs3/video-hls/5250634317044855747_hlsb.m3u8
 http://jsmov2.a.yximgs.com/bs3/video-hls/5232901391302199073_hlsb.m3u8
 #EXTINF:-1 tvg-id="倩女幽魂道道道" tvg-name="倩女幽魂道道道" tvg-logo="https://live.fanmingming.cn/tv/倩女幽魂道道道.png" group-title="经典剧场",倩女幽魂道道道
 http://jsmov2.a.yximgs.com/bs3/video-hls/5216294367991385255_hlsb.m3u8
+#EXTINF:-1 tvg-id="Netflix开年重磅悬疑剧" tvg-name="Netflix开年重磅悬疑剧" tvg-logo="https://live.fanmingming.cn/tv/虎牙直播.png" group-title="经典剧场",Netflix开年重磅悬疑剧
+https://live.ottiptv.cc/huya/26355850
+https://live.metshop.top/huya/26355850
 #EXTINF:-1 tvg-id="CCTV-5" tvg-name="CCTV-5" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV5.png" group-title="体育频道",CCTV-5
 http://120.198.95.220:9901/tsfile/live/1019_1.m3u8?key=txiptv&playlive=1&down=1
 #EXTINF:-1 tvg-id="CCTV-5" tvg-name="CCTV-5" tvg-logo="https://live.fanmingming.cn/tv/CCTV5.png" group-title="体育频道",CCTV-5
@@ -1241,6 +1256,12 @@ https://live.ottiptv.cc/huya/134862
 https://live.metshop.top/huya/134862
 #EXTINF:-1 tvg-id="小醋鱼呀" tvg-name="小醋鱼呀" tvg-logo="https://tx-live-cover.msstatic.com/huyalive/1199516898824-1199516898824-5244254883455959040-2399033921104-10057-A-0-1/20261029150809.jpg?sign=ZBe8Pb5u0CH3KXe3M+olUY+8RsxhPTEyNTM0OTg3MDEmYj1odXlhLXNjcmVlbnNob3RzLXJldmlldy0xMjUzNDk4NzAxJms9QUtJRFFpcTNSbEJtV0p6ZUxKTVZrMklWdVEybm1pY2RkRWdEJmU9MTgwODgwOTY5MCZ0PTE3OTMyNTc2OTAmcj0xMjM0NTY3OCZmPS9odXlhbGl2ZS8xMTk5NTE2ODk4ODI0LTExOTk1MTY4OTg4MjQtNTI0NDI1NDg4MzQ1NTk1OTA0MC0yMzk5MDMzOTIxMTA0LTEwMDU3LUEtMC0xLzIwMjYxMDI5MTUwODA5LmpwZw==" group-title="虎牙直播",小醋鱼呀
 https://huya.445569.xyz/live/134862
+#EXTINF:-1 tvg-id="拖鞋辉" tvg-name="拖鞋辉" tvg-logo="https://live.fanmingming.cn/tv/虎牙直播.png" group-title="虎牙直播",拖鞋辉
+https://live.ottiptv.cc/huya/154826
+#EXTINF:-1 tvg-id="拖鞋辉" tvg-name="拖鞋辉" tvg-logo="https://live.fanmingming.cn/tv/虎牙直播.png" group-title="虎牙直播",拖鞋辉
+https://live.metshop.top/huya/154826
+#EXTINF:-1 tvg-id="拖鞋辉" tvg-name="拖鞋辉" tvg-logo="https://live.fanmingming.cn/tv/虎牙直播.png" group-title="虎牙直播",拖鞋辉
+https://huya.445569.xyz/live/154826
 #EXTINF:-1 tvg-id="大家好 我曾小咸又回来啦" tvg-name="大家好 我曾小咸又回来啦" tvg-logo="http://live-cover.msstatic.com/huyalive/1388474069-1388474069-5963450717699047424-2777071594-10057-A-0-1/20261101083719.jpg" group-title="点播剧1",大家好 我曾小咸又回来啦
 https://live.ottiptv.cc/huya/11336726
 #EXTINF:-1 tvg-id="大家好 我曾小咸又回来啦" tvg-name="大家好 我曾小咸又回来啦" tvg-logo="http://live-cover.msstatic.com/huyalive/1388474069-1388474069-5963450717699047424-2777071594-10057-A-0-1/20261101083719.jpg" group-title="点播剧1",大家好 我曾小咸又回来啦
