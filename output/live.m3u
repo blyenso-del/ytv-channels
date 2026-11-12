@@ -849,8 +849,10 @@ http://8.138.7.223/tv/fh.php?id=3
 https://live.catvod.com/live.php?id=viu1_twn
 #EXTINF:-1 tvg-id="Now新闻台" tvg-name="Now新闻台" tvg-logo="https://live.fanmingming.cn/tv/Now新闻台.png" group-title="港澳台",Now新闻台
 https://fast.hidns.vip/163189/now
-#EXTINF:-1 tvg-id="Now新闻台" tvg-name="Now新闻台" tvg-logo="https://i.imgur.com/5EYjWK7.png" group-title="港澳台",Now新闻台
-https://uycyyuuzyh.turknet.ercdn.net/nphindgytw/nowtv/nowtv_720p.m3u8
+#EXTINF:-1 tvg-id="Now新闻台" tvg-name="Now新闻台" tvg-logo="https://live.fanmingming.cn/tv/Now新闻台.png" group-title="港澳台",Now新闻台
+https://cdn.qd.je/live/now/stream.m3u8
+#EXTINF:-1 tvg-id="Now新闻台" tvg-name="Now新闻台" tvg-logo="https://live.fanmingming.cn/tv/Now新闻台.png" group-title="港澳台",Now新闻台
+webview://https://news.now.com/home/live
 #EXTINF:-1 tvg-id="HOY TV" tvg-name="HOY TV" tvg-logo="https://live.fanmingming.cn/tv/HOYTV.png" group-title="港澳台",HOY TV
 http://iptv.4666888.xyz/iptv2A.php?id=35
 #EXTINF:-1 tvg-id="HOY 资讯台" tvg-name="HOY 资讯台" tvg-logo="https://live.fanmingming.cn/tv/HOY78.png" group-title="港澳台",HOY 资讯台
